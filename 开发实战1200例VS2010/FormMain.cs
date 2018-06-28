@@ -1,0 +1,163 @@
+﻿using System;
+using System.Collections.Generic;
+using System.ComponentModel;
+using System.Data;
+using System.Drawing;
+using System.Linq;
+using System.Text;
+using System.Windows.Forms;
+using System.IO;
+using System.Diagnostics;
+using System.Runtime.InteropServices;
+
+namespace 开发实战1200例VS2010
+{
+    public partial class FormMain : Form
+    {
+        string path = Directory.GetCurrentDirectory();
+
+        [DllImport("USER32.DLL")]
+        public static extern bool SetForegroundWindow(IntPtr hWnd);
+
+        public FormMain()
+        {
+            InitializeComponent();
+        }
+
+        private void FormMain_Load(object sender, EventArgs e)
+        {
+            tvMenu.ExpandAll();
+        }
+
+        private void tvMenu_MouseClick(object sender, MouseEventArgs e)
+        {
+            TreeNode node = tvMenu.GetNodeAt(e.X, e.Y);
+            if (node == null)
+            {
+                return;
+            }
+
+            string tag = string.Empty;
+            if (node.Tag != null)
+            {
+                tag = node.Tag.ToString();
+            }
+            //查找是否已经打开
+            foreach (TabPage tb in tcExample.TabPages)
+            {
+                if (tb.Text == node.Text)
+                {
+                    tcExample.SelectedTab = tb;
+                    return;
+                }
+            }
+
+            switch (tag)
+            {
+                case "1-16":
+                    {
+                        Button btn = new Button();
+                        btn.Text = "输出字符串";
+                        btn.Width = 100;
+                        btn.Height = 40;
+                        btn.Location = new Point(tcExample.Left + tcExample.Width / 2 - btn.Width / 2, tcExample.Top + tcExample.Height / 2 - btn.Height / 2);
+                        btn.Click += new EventHandler(btn016_Click);
+                        AddTab(btn, node);
+                    }
+                    break;
+                case "1-17":
+                    {
+                        _1_017.UCMain ucMain = new _1_017.UCMain();
+                        ucMain.Dock = DockStyle.Fill;
+                        AddTab(ucMain, node);
+                    }
+                    break;
+                case "1-18":
+                    {
+                        _1_018.UCMain ucMain = new _1_018.UCMain();
+                        ucMain.Dock = DockStyle.Fill;
+                        AddTab(ucMain, node);
+                    }
+                    break;
+                case "1-19":
+                    {
+                        _1_019.UCMain ucMain = new _1_019.UCMain();
+                        ucMain.Dock = DockStyle.Fill;
+                        AddTab(ucMain, node);
+                    }
+                    break;
+                case "1-20":
+                    {
+                        _1_020.UCMain ucMain = new _1_020.UCMain();
+                        ucMain.Dock = DockStyle.Fill;
+                        AddTab(ucMain, node);
+                    }
+                    break;
+                case "1-21":
+                    {
+                        _1_021.UCMain ucMain = new _1_021.UCMain();
+                        ucMain.Dock = DockStyle.Fill;
+                        AddTab(ucMain, node);
+                    }
+                    break;
+                case "1-22":
+                    {
+                        _1_022.UCMain ucMain = new _1_022.UCMain();
+                        ucMain.Dock = DockStyle.Fill;
+                        AddTab(ucMain, node);
+                    }
+                    break;
+                case "1-23":
+                    {
+                        _1_023.UCMain ucMain = new _1_023.UCMain();
+                        ucMain.Dock = DockStyle.Fill;
+                        AddTab(ucMain, node);
+                    }
+                    break;
+                case "1-24":
+                    {
+                        _1_024.UCMain ucMain = new _1_024.UCMain();
+                        ucMain.Dock = DockStyle.Fill;
+                        AddTab(ucMain, node);
+                    }
+                    break;
+                case "1-25":
+                    {
+                        _1_025.UCMain ucMain = new _1_025.UCMain();
+                        ucMain.Dock = DockStyle.Fill;
+                        AddTab(ucMain, node);
+                    }
+                    break;
+                case "1-26":
+                    {
+                        _1_026.UCMain ucMain = new _1_026.UCMain();
+                        ucMain.Dock = DockStyle.Fill;
+                        AddTab(ucMain, node);
+                    }
+                    break;
+                default:
+                    break;
+            }
+
+        }
+
+        private void btn016_Click(object sender, EventArgs e)
+        {
+            string str="\"";
+            string strOne = "Hello,\"C#\";";
+            string strTwo = "Hello," + '\u0022' + "C#" + '\u0022' + ";";
+            string strThree = "Hello," + str + "C#" + str + ";";
+            MessageBox.Show(strOne + "     " + strTwo + "      " + strThree);
+        }
+
+        private void AddTab(Control c, TreeNode node)
+        {
+            TabPage tab = new TabPage();
+            tab.Text = node.Text;
+            tab.Controls.Add(c);
+            tcExample.TabPages.Add(tab);
+            tcExample.SelectedTab = tab;
+        }
+
+    }
+}
