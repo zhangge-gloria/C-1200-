@@ -68,70 +68,78 @@ namespace 开发实战1200例VS2010
                 case "1-17":
                     {
                         _1_017.UCMain ucMain = new _1_017.UCMain();
-                        ucMain.Dock = DockStyle.Fill;
                         AddTab(ucMain, node);
                     }
                     break;
                 case "1-18":
                     {
                         _1_018.UCMain ucMain = new _1_018.UCMain();
-                        ucMain.Dock = DockStyle.Fill;
                         AddTab(ucMain, node);
                     }
                     break;
                 case "1-19":
                     {
                         _1_019.UCMain ucMain = new _1_019.UCMain();
-                        ucMain.Dock = DockStyle.Fill;
                         AddTab(ucMain, node);
                     }
                     break;
                 case "1-20":
                     {
                         _1_020.UCMain ucMain = new _1_020.UCMain();
-                        ucMain.Dock = DockStyle.Fill;
                         AddTab(ucMain, node);
                     }
                     break;
                 case "1-21":
                     {
                         _1_021.UCMain ucMain = new _1_021.UCMain();
-                        ucMain.Dock = DockStyle.Fill;
                         AddTab(ucMain, node);
                     }
                     break;
                 case "1-22":
                     {
                         _1_022.UCMain ucMain = new _1_022.UCMain();
-                        ucMain.Dock = DockStyle.Fill;
                         AddTab(ucMain, node);
                     }
                     break;
                 case "1-23":
                     {
                         _1_023.UCMain ucMain = new _1_023.UCMain();
-                        ucMain.Dock = DockStyle.Fill;
                         AddTab(ucMain, node);
                     }
                     break;
                 case "1-24":
                     {
                         _1_024.UCMain ucMain = new _1_024.UCMain();
-                        ucMain.Dock = DockStyle.Fill;
                         AddTab(ucMain, node);
                     }
                     break;
                 case "1-25":
                     {
                         _1_025.UCMain ucMain = new _1_025.UCMain();
-                        ucMain.Dock = DockStyle.Fill;
                         AddTab(ucMain, node);
                     }
                     break;
                 case "1-26":
                     {
                         _1_026.UCMain ucMain = new _1_026.UCMain();
-                        ucMain.Dock = DockStyle.Fill;
+                        AddTab(ucMain, node);
+                    }
+                    break;
+                case "1-27":
+                    {
+                        _1_027.UCMain ucMain = new _1_027.UCMain();
+                        AddTab(ucMain, node);
+                    }
+                    break;
+                case "1-28":
+                    {
+                        _1_028.UCMain ucMain = new _1_028.UCMain();
+                        AddTab(ucMain, node);
+                    }
+                    break;
+                case "1-29":
+                    {
+                        _1_029.UCMain ucMain = new _1_029.UCMain();
                         AddTab(ucMain, node);
                     }
                     break;

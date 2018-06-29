@@ -16,3 +16,6 @@ D:\专业提升\开发实战1200例VS2010\开发实战1200例VS2010\obj\x86\Debu
 D:\专业提升\开发实战1200例VS2010\开发实战1200例VS2010\obj\x86\Debug\开发实战1200例VS2010._1_024.UCMain.resources
 D:\专业提升\开发实战1200例VS2010\开发实战1200例VS2010\obj\x86\Debug\开发实战1200例VS2010._1_025.UCMain.resources
 D:\专业提升\开发实战1200例VS2010\开发实战1200例VS2010\obj\x86\Debug\开发实战1200例VS2010._1_026.UCMain.resources
+D:\专业提升\开发实战1200例VS2010\开发实战1200例VS2010\obj\x86\Debug\开发实战1200例VS2010._1_027.UCMain.resources
+D:\专业提升\开发实战1200例VS2010\开发实战1200例VS2010\obj\x86\Debug\开发实战1200例VS2010._1_028.UCMain.resources
+D:\专业提升\开发实战1200例VS2010\开发实战1200例VS2010\obj\x86\Debug\开发实战1200例VS2010._1_029.UCMain.resources

@@ -53,14 +53,22 @@
             treeNode11,
             treeNode12,
             treeNode13});
-            System.Windows.Forms.TreeNode treeNode15 = new System.Windows.Forms.TreeNode("第2章 C#语言基础应用", new System.Windows.Forms.TreeNode[] {
+            System.Windows.Forms.TreeNode treeNode15 = new System.Windows.Forms.TreeNode("027 小明去学校和医院分别要走哪条路");
+            System.Windows.Forms.TreeNode treeNode16 = new System.Windows.Forms.TreeNode("028 利用条件语句判断用户登录身份");
+            System.Windows.Forms.TreeNode treeNode17 = new System.Windows.Forms.TreeNode("029 判断指定月份属于哪个季节");
+            System.Windows.Forms.TreeNode treeNode18 = new System.Windows.Forms.TreeNode("2.4 流程控制语句的使用", new System.Windows.Forms.TreeNode[] {
+            treeNode15,
+            treeNode16,
+            treeNode17});
+            System.Windows.Forms.TreeNode treeNode19 = new System.Windows.Forms.TreeNode("第2章 C#语言基础应用", new System.Windows.Forms.TreeNode[] {
             treeNode8,
-            treeNode14});
-            System.Windows.Forms.TreeNode treeNode16 = new System.Windows.Forms.TreeNode("第1篇 C#编程基础篇", new System.Windows.Forms.TreeNode[] {
+            treeNode14,
+            treeNode18});
+            System.Windows.Forms.TreeNode treeNode20 = new System.Windows.Forms.TreeNode("第1篇 C#编程基础篇", new System.Windows.Forms.TreeNode[] {
             treeNode1,
-            treeNode15});
-            System.Windows.Forms.TreeNode treeNode17 = new System.Windows.Forms.TreeNode("第1卷", new System.Windows.Forms.TreeNode[] {
-            treeNode16});
+            treeNode19});
+            System.Windows.Forms.TreeNode treeNode21 = new System.Windows.Forms.TreeNode("第1卷", new System.Windows.Forms.TreeNode[] {
+            treeNode20});
             this.splitContainer1 = new System.Windows.Forms.SplitContainer();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
             this.tvMenu = new System.Windows.Forms.TreeView();
@@ -152,15 +160,26 @@
             treeNode13.Text = "026 使用as关键字将对象转换为指定类型";
             treeNode14.Name = "节点2";
             treeNode14.Text = "2.3 关键字的使用";
-            treeNode15.Name = "节点9";
-            treeNode15.Text = "第2章 C#语言基础应用";
-            treeNode16.Name = "节点7";
-            treeNode16.Text = "第1篇 C#编程基础篇";
-            treeNode17.Name = "节点6";
-            treeNode17.Tag = "";
-            treeNode17.Text = "第1卷";
+            treeNode15.Name = "节点1";
+            treeNode15.Tag = "1-27";
+            treeNode15.Text = "027 小明去学校和医院分别要走哪条路";
+            treeNode16.Name = "节点2";
+            treeNode16.Tag = "1-28";
+            treeNode16.Text = "028 利用条件语句判断用户登录身份";
+            treeNode17.Name = "节点3";
+            treeNode17.Tag = "1-29";
+            treeNode17.Text = "029 判断指定月份属于哪个季节";
+            treeNode18.Name = "节点0";
+            treeNode18.Text = "2.4 流程控制语句的使用";
+            treeNode19.Name = "节点9";
+            treeNode19.Text = "第2章 C#语言基础应用";
+            treeNode20.Name = "节点7";
+            treeNode20.Text = "第1篇 C#编程基础篇";
+            treeNode21.Name = "节点6";
+            treeNode21.Tag = "";
+            treeNode21.Text = "第1卷";
             this.tvMenu.Nodes.AddRange(new System.Windows.Forms.TreeNode[] {
-            treeNode17});
+            treeNode21});
             this.tvMenu.Size = new System.Drawing.Size(376, 676);
             this.tvMenu.TabIndex = 0;
             this.tvMenu.MouseClick += new System.Windows.Forms.MouseEventHandler(this.tvMenu_MouseClick);
