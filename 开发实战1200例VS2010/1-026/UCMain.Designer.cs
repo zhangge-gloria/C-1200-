@@ -57,7 +57,7 @@
             this.rbtnString.AutoSize = true;
             this.rbtnString.Location = new System.Drawing.Point(24, 194);
             this.rbtnString.Name = "rbtnString";
-            this.rbtnString.Size = new System.Drawing.Size(300, 45);
+            this.rbtnString.Size = new System.Drawing.Size(190, 31);
             this.rbtnString.TabIndex = 3;
             this.rbtnString.TabStop = true;
             this.rbtnString.Text = "转换为String类型";
@@ -68,7 +68,7 @@
             this.rbtnStream.AutoSize = true;
             this.rbtnStream.Location = new System.Drawing.Point(24, 144);
             this.rbtnStream.Name = "rbtnStream";
-            this.rbtnStream.Size = new System.Drawing.Size(317, 45);
+            this.rbtnStream.Size = new System.Drawing.Size(201, 31);
             this.rbtnStream.TabIndex = 2;
             this.rbtnStream.TabStop = true;
             this.rbtnStream.Text = "转换为Stream类型";
@@ -79,7 +79,7 @@
             this.rbtnObj.AutoSize = true;
             this.rbtnObj.Location = new System.Drawing.Point(24, 94);
             this.rbtnObj.Name = "rbtnObj";
-            this.rbtnObj.Size = new System.Drawing.Size(310, 45);
+            this.rbtnObj.Size = new System.Drawing.Size(195, 31);
             this.rbtnObj.TabIndex = 1;
             this.rbtnObj.TabStop = true;
             this.rbtnObj.Text = "转换为Object类型";
@@ -90,7 +90,7 @@
             this.label1.AutoSize = true;
             this.label1.Location = new System.Drawing.Point(24, 48);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(403, 41);
+            this.label1.Size = new System.Drawing.Size(252, 27);
             this.label1.TabIndex = 0;
             this.label1.Text = "将FileStream类型转换为：";
             // 
@@ -112,7 +112,7 @@
             this.Font = new System.Drawing.Font("微软雅黑", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.Margin = new System.Windows.Forms.Padding(5);
             this.Name = "UCMain";
-            this.Size = new System.Drawing.Size(880, 700);
+            this.Size = new System.Drawing.Size(1312, 915);
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
             this.ResumeLayout(false);

@@ -29,8 +29,8 @@
         private void InitializeComponent()
         {
             this.groupBox1 = new System.Windows.Forms.GroupBox();
-            this.rbtnClass1 = new System.Windows.Forms.RadioButton();
             this.rbtnClass2 = new System.Windows.Forms.RadioButton();
+            this.rbtnClass1 = new System.Windows.Forms.RadioButton();
             this.groupBox2 = new System.Windows.Forms.GroupBox();
             this.rbtnFileInfo = new System.Windows.Forms.RadioButton();
             this.rbtnString = new System.Windows.Forms.RadioButton();
@@ -50,28 +50,28 @@
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "对象";
             // 
+            // rbtnClass2
+            // 
+            this.rbtnClass2.AutoSize = true;
+            this.rbtnClass2.Location = new System.Drawing.Point(18, 111);
+            this.rbtnClass2.Name = "rbtnClass2";
+            this.rbtnClass2.Size = new System.Drawing.Size(113, 31);
+            this.rbtnClass2.TabIndex = 1;
+            this.rbtnClass2.TabStop = true;
+            this.rbtnClass2.Text = "文件对象";
+            this.rbtnClass2.UseVisualStyleBackColor = true;
+            // 
             // rbtnClass1
             // 
             this.rbtnClass1.AutoSize = true;
             this.rbtnClass1.Checked = true;
             this.rbtnClass1.Location = new System.Drawing.Point(18, 60);
             this.rbtnClass1.Name = "rbtnClass1";
-            this.rbtnClass1.Size = new System.Drawing.Size(209, 45);
+            this.rbtnClass1.Size = new System.Drawing.Size(133, 31);
             this.rbtnClass1.TabIndex = 0;
             this.rbtnClass1.TabStop = true;
             this.rbtnClass1.Text = "字符串对象";
             this.rbtnClass1.UseVisualStyleBackColor = true;
-            // 
-            // rbtnClass2
-            // 
-            this.rbtnClass2.AutoSize = true;
-            this.rbtnClass2.Location = new System.Drawing.Point(18, 111);
-            this.rbtnClass2.Name = "rbtnClass2";
-            this.rbtnClass2.Size = new System.Drawing.Size(177, 45);
-            this.rbtnClass2.TabIndex = 1;
-            this.rbtnClass2.TabStop = true;
-            this.rbtnClass2.Text = "文件对象";
-            this.rbtnClass2.UseVisualStyleBackColor = true;
             // 
             // groupBox2
             // 
@@ -89,7 +89,7 @@
             this.rbtnFileInfo.AutoSize = true;
             this.rbtnFileInfo.Location = new System.Drawing.Point(18, 111);
             this.rbtnFileInfo.Name = "rbtnFileInfo";
-            this.rbtnFileInfo.Size = new System.Drawing.Size(226, 45);
+            this.rbtnFileInfo.Size = new System.Drawing.Size(143, 31);
             this.rbtnFileInfo.TabIndex = 1;
             this.rbtnFileInfo.TabStop = true;
             this.rbtnFileInfo.Text = "FileInfo类型";
@@ -101,7 +101,7 @@
             this.rbtnString.Checked = true;
             this.rbtnString.Location = new System.Drawing.Point(18, 60);
             this.rbtnString.Name = "rbtnString";
-            this.rbtnString.Size = new System.Drawing.Size(201, 45);
+            this.rbtnString.Size = new System.Drawing.Size(127, 31);
             this.rbtnString.TabIndex = 0;
             this.rbtnString.TabStop = true;
             this.rbtnString.Text = "string类型";
@@ -125,7 +125,7 @@
             this.Controls.Add(this.groupBox1);
             this.Font = new System.Drawing.Font("微软雅黑", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.Name = "UCMain";
-            this.Size = new System.Drawing.Size(880, 700);
+            this.Size = new System.Drawing.Size(1312, 915);
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
             this.groupBox2.ResumeLayout(false);

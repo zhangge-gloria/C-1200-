@@ -40,7 +40,7 @@
             // 
             this.txtNum1.Location = new System.Drawing.Point(38, 51);
             this.txtNum1.Name = "txtNum1";
-            this.txtNum1.Size = new System.Drawing.Size(100, 50);
+            this.txtNum1.Size = new System.Drawing.Size(100, 34);
             this.txtNum1.TabIndex = 0;
             // 
             // label1
@@ -48,7 +48,7 @@
             this.label1.AutoSize = true;
             this.label1.Location = new System.Drawing.Point(138, 56);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(42, 41);
+            this.label1.Size = new System.Drawing.Size(27, 27);
             this.label1.TabIndex = 1;
             this.label1.Text = "+";
             this.label1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -57,7 +57,7 @@
             // 
             this.txtNum2.Location = new System.Drawing.Point(180, 51);
             this.txtNum2.Name = "txtNum2";
-            this.txtNum2.Size = new System.Drawing.Size(100, 50);
+            this.txtNum2.Size = new System.Drawing.Size(100, 34);
             this.txtNum2.TabIndex = 2;
             // 
             // label2
@@ -65,7 +65,7 @@
             this.label2.AutoSize = true;
             this.label2.Location = new System.Drawing.Point(280, 56);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(42, 41);
+            this.label2.Size = new System.Drawing.Size(27, 27);
             this.label2.TabIndex = 3;
             this.label2.Text = "=";
             this.label2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -75,7 +75,7 @@
             this.lblResult.AutoSize = true;
             this.lblResult.Location = new System.Drawing.Point(322, 56);
             this.lblResult.Name = "lblResult";
-            this.lblResult.Size = new System.Drawing.Size(0, 41);
+            this.lblResult.Size = new System.Drawing.Size(0, 27);
             this.lblResult.TabIndex = 4;
             // 
             // btnCalc
@@ -90,7 +90,7 @@
             // 
             // UCMain
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(19F, 41F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(12F, 27F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.Controls.Add(this.btnCalc);
             this.Controls.Add(this.lblResult);
@@ -99,9 +99,9 @@
             this.Controls.Add(this.label1);
             this.Controls.Add(this.txtNum1);
             this.Font = new System.Drawing.Font("微软雅黑", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
+            this.Margin = new System.Windows.Forms.Padding(5);
             this.Name = "UCMain";
-            this.Size = new System.Drawing.Size(880, 700);
+            this.Size = new System.Drawing.Size(1312, 915);
             this.ResumeLayout(false);
             this.PerformLayout();
 

@@ -75,7 +75,7 @@
             this.label3.AutoSize = true;
             this.label3.Location = new System.Drawing.Point(17, 200);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(210, 41);
+            this.label3.Size = new System.Drawing.Size(132, 27);
             this.label3.TabIndex = 5;
             this.label3.Text = "加密后的数字";
             // 
@@ -93,7 +93,7 @@
             // 
             this.txtKey.Location = new System.Drawing.Point(185, 86);
             this.txtKey.Name = "txtKey";
-            this.txtKey.Size = new System.Drawing.Size(259, 50);
+            this.txtKey.Size = new System.Drawing.Size(259, 34);
             this.txtKey.TabIndex = 3;
             this.txtKey.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
@@ -102,7 +102,7 @@
             this.label2.AutoSize = true;
             this.label2.Location = new System.Drawing.Point(17, 91);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(146, 41);
+            this.label2.Size = new System.Drawing.Size(92, 27);
             this.label2.TabIndex = 2;
             this.label2.Text = "加密数字";
             // 
@@ -110,7 +110,7 @@
             // 
             this.txtNum.Location = new System.Drawing.Point(185, 36);
             this.txtNum.Name = "txtNum";
-            this.txtNum.Size = new System.Drawing.Size(259, 50);
+            this.txtNum.Size = new System.Drawing.Size(259, 34);
             this.txtNum.TabIndex = 1;
             this.txtNum.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
@@ -119,7 +119,7 @@
             this.label1.AutoSize = true;
             this.label1.Location = new System.Drawing.Point(17, 41);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(146, 41);
+            this.label1.Size = new System.Drawing.Size(92, 27);
             this.label1.TabIndex = 0;
             this.label1.Text = "输入数字";
             // 
@@ -148,7 +148,7 @@
             this.label6.AutoSize = true;
             this.label6.Location = new System.Drawing.Point(17, 89);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(210, 41);
+            this.label6.Size = new System.Drawing.Size(132, 27);
             this.label6.TabIndex = 7;
             this.label6.Text = "解密后的数字";
             // 
@@ -164,14 +164,14 @@
             // 
             // UCMain
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(19F, 41F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(12F, 27F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.Controls.Add(this.groupBox2);
             this.Controls.Add(this.groupBox1);
             this.Font = new System.Drawing.Font("微软雅黑", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.Margin = new System.Windows.Forms.Padding(5);
             this.Name = "UCMain";
-            this.Size = new System.Drawing.Size(880, 700);
+            this.Size = new System.Drawing.Size(1312, 915);
             this.Load += new System.EventHandler(this.UCMain_Load);
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();

@@ -55,7 +55,7 @@
             this.txtShow.Font = new System.Drawing.Font("微软雅黑", 25.875F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.txtShow.Location = new System.Drawing.Point(52, 49);
             this.txtShow.Name = "txtShow";
-            this.txtShow.Size = new System.Drawing.Size(522, 99);
+            this.txtShow.Size = new System.Drawing.Size(522, 64);
             this.txtShow.TabIndex = 0;
             this.txtShow.Text = "0";
             this.txtShow.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
@@ -66,7 +66,7 @@
             this.label1.Font = new System.Drawing.Font("微软雅黑", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.label1.Location = new System.Drawing.Point(46, 181);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(134, 31);
+            this.label1.Size = new System.Drawing.Size(84, 20);
             this.label1.TabIndex = 1;
             this.label1.Text = "计算表达式";
             // 
@@ -258,13 +258,14 @@
             // UCMain
             // 
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.None;
+            this.BackColor = System.Drawing.SystemColors.Control;
             this.Controls.Add(this.groupBox2);
             this.Controls.Add(this.groupBox1);
             this.Controls.Add(this.lblExpression);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.txtShow);
             this.Name = "UCMain";
-            this.Size = new System.Drawing.Size(880, 700);
+            this.Size = new System.Drawing.Size(1312, 915);
             this.groupBox1.ResumeLayout(false);
             this.groupBox2.ResumeLayout(false);
             this.ResumeLayout(false);

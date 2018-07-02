@@ -40,7 +40,7 @@
             this.label1.Location = new System.Drawing.Point(17, 30);
             this.label1.Margin = new System.Windows.Forms.Padding(5, 0, 5, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(274, 41);
+            this.label1.Size = new System.Drawing.Size(172, 27);
             this.label1.TabIndex = 0;
             this.label1.Text = "输入一个汉字字符";
             // 
@@ -48,7 +48,7 @@
             // 
             this.txtChar.Location = new System.Drawing.Point(299, 25);
             this.txtChar.Name = "txtChar";
-            this.txtChar.Size = new System.Drawing.Size(212, 50);
+            this.txtChar.Size = new System.Drawing.Size(212, 34);
             this.txtChar.TabIndex = 1;
             this.txtChar.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.txtChar.TextChanged += new System.EventHandler(this.txtChar_TextChanged);
@@ -73,16 +73,16 @@
             // 
             // UCMain
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(19F, 41F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(12F, 27F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.Controls.Add(this.btnGetCode);
             this.Controls.Add(this.lblCode);
             this.Controls.Add(this.txtChar);
             this.Controls.Add(this.label1);
             this.Font = new System.Drawing.Font("微软雅黑", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
+            this.Margin = new System.Windows.Forms.Padding(5);
             this.Name = "UCMain";
-            this.Size = new System.Drawing.Size(880, 700);
+            this.Size = new System.Drawing.Size(1312, 915);
             this.ResumeLayout(false);
             this.PerformLayout();
 

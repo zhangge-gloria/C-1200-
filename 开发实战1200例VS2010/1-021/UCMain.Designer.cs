@@ -39,7 +39,7 @@
             this.label1.AutoSize = true;
             this.label1.Location = new System.Drawing.Point(22, 33);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(274, 41);
+            this.label1.Size = new System.Drawing.Size(172, 27);
             this.label1.TabIndex = 0;
             this.label1.Text = "是否是业务花销：";
             // 
@@ -48,7 +48,7 @@
             this.rbYes.AutoSize = true;
             this.rbYes.Location = new System.Drawing.Point(273, 31);
             this.rbYes.Name = "rbYes";
-            this.rbYes.Size = new System.Drawing.Size(81, 45);
+            this.rbYes.Size = new System.Drawing.Size(53, 31);
             this.rbYes.TabIndex = 1;
             this.rbYes.TabStop = true;
             this.rbYes.Text = "是";
@@ -59,7 +59,7 @@
             this.rbNo.AutoSize = true;
             this.rbNo.Location = new System.Drawing.Point(360, 31);
             this.rbNo.Name = "rbNo";
-            this.rbNo.Size = new System.Drawing.Size(81, 45);
+            this.rbNo.Size = new System.Drawing.Size(53, 31);
             this.rbNo.TabIndex = 2;
             this.rbNo.TabStop = true;
             this.rbNo.Text = "否";
@@ -77,16 +77,16 @@
             // 
             // UCMain
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(19F, 41F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(12F, 27F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.Controls.Add(this.btnOK);
             this.Controls.Add(this.rbNo);
             this.Controls.Add(this.rbYes);
             this.Controls.Add(this.label1);
             this.Font = new System.Drawing.Font("微软雅黑", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
+            this.Margin = new System.Windows.Forms.Padding(5);
             this.Name = "UCMain";
-            this.Size = new System.Drawing.Size(880, 700);
+            this.Size = new System.Drawing.Size(1312, 915);
             this.ResumeLayout(false);
             this.PerformLayout();
 

@@ -42,7 +42,7 @@
             "蓝"});
             this.cbxColor.Location = new System.Drawing.Point(45, 46);
             this.cbxColor.Name = "cbxColor";
-            this.cbxColor.Size = new System.Drawing.Size(121, 32);
+            this.cbxColor.Size = new System.Drawing.Size(121, 23);
             this.cbxColor.TabIndex = 0;
             this.cbxColor.SelectedIndexChanged += new System.EventHandler(this.cbxColor_SelectedIndexChanged);
             // 
@@ -57,7 +57,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.None;
             this.Controls.Add(this.cbxColor);
             this.Name = "UCMain";
-            this.Size = new System.Drawing.Size(880, 700);
+            this.Size = new System.Drawing.Size(1312, 915);
             this.ResumeLayout(false);
 
         }

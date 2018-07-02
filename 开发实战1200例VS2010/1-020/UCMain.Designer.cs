@@ -38,7 +38,7 @@
             this.label1.AutoSize = true;
             this.label1.Location = new System.Drawing.Point(14, 22);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(178, 41);
+            this.label1.Size = new System.Drawing.Size(112, 27);
             this.label1.TabIndex = 0;
             this.label1.Text = "请输入年份";
             // 
@@ -46,7 +46,7 @@
             // 
             this.txtYear.Location = new System.Drawing.Point(184, 17);
             this.txtYear.Name = "txtYear";
-            this.txtYear.Size = new System.Drawing.Size(368, 50);
+            this.txtYear.Size = new System.Drawing.Size(368, 34);
             this.txtYear.TabIndex = 1;
             // 
             // btnCalc
@@ -61,15 +61,15 @@
             // 
             // UCMain
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(19F, 41F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(12F, 27F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.Controls.Add(this.btnCalc);
             this.Controls.Add(this.txtYear);
             this.Controls.Add(this.label1);
             this.Font = new System.Drawing.Font("微软雅黑", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
+            this.Margin = new System.Windows.Forms.Padding(5);
             this.Name = "UCMain";
-            this.Size = new System.Drawing.Size(880, 700);
+            this.Size = new System.Drawing.Size(1312, 915);
             this.ResumeLayout(false);
             this.PerformLayout();
 

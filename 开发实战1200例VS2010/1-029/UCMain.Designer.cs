@@ -38,7 +38,7 @@
             this.label1.AutoSize = true;
             this.label1.Location = new System.Drawing.Point(60, 58);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(178, 41);
+            this.label1.Size = new System.Drawing.Size(112, 27);
             this.label1.TabIndex = 0;
             this.label1.Text = "选择月份：";
             // 
@@ -60,7 +60,7 @@
             "12月"});
             this.cbxMonth.Location = new System.Drawing.Point(216, 55);
             this.cbxMonth.Name = "cbxMonth";
-            this.cbxMonth.Size = new System.Drawing.Size(121, 49);
+            this.cbxMonth.Size = new System.Drawing.Size(121, 35);
             this.cbxMonth.TabIndex = 1;
             // 
             // btnSeason
@@ -81,7 +81,7 @@
             this.Controls.Add(this.label1);
             this.Font = new System.Drawing.Font("微软雅黑", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.Name = "UCMain";
-            this.Size = new System.Drawing.Size(880, 700);
+            this.Size = new System.Drawing.Size(1312, 915);
             this.Load += new System.EventHandler(this.UCMain_Load);
             this.ResumeLayout(false);
             this.PerformLayout();

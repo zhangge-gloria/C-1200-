@@ -1,4 +1,4 @@
-﻿namespace 开发实战1200例VS2010._1_023
+﻿namespace 开发实战1200例VS2010._1_031
 {
     partial class UCMain
     {
@@ -28,45 +28,31 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.rtxtShow = new System.Windows.Forms.RichTextBox();
-            this.btnGet = new System.Windows.Forms.Button();
+            this.txtShow = new System.Windows.Forms.TextBox();
             this.SuspendLayout();
             // 
-            // rtxtShow
+            // txtShow
             // 
-            this.rtxtShow.Location = new System.Drawing.Point(49, 29);
-            this.rtxtShow.Name = "rtxtShow";
-            this.rtxtShow.Size = new System.Drawing.Size(756, 478);
-            this.rtxtShow.TabIndex = 0;
-            this.rtxtShow.Text = "";
-            // 
-            // btnGet
-            // 
-            this.btnGet.Location = new System.Drawing.Point(381, 579);
-            this.btnGet.Name = "btnGet";
-            this.btnGet.Size = new System.Drawing.Size(96, 59);
-            this.btnGet.TabIndex = 1;
-            this.btnGet.Text = "获取";
-            this.btnGet.UseVisualStyleBackColor = true;
-            this.btnGet.Click += new System.EventHandler(this.btnGet_Click);
+            this.txtShow.Location = new System.Drawing.Point(45, 131);
+            this.txtShow.Name = "txtShow";
+            this.txtShow.Size = new System.Drawing.Size(457, 34);
+            this.txtShow.TabIndex = 0;
             // 
             // UCMain
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(12F, 27F);
-            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.Controls.Add(this.btnGet);
-            this.Controls.Add(this.rtxtShow);
+            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.None;
+            this.Controls.Add(this.txtShow);
             this.Font = new System.Drawing.Font("微软雅黑", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.Margin = new System.Windows.Forms.Padding(5);
             this.Name = "UCMain";
             this.Size = new System.Drawing.Size(1312, 915);
+            this.Load += new System.EventHandler(this.UCMain_Load);
             this.ResumeLayout(false);
+            this.PerformLayout();
 
         }
 
         #endregion
 
-        private System.Windows.Forms.RichTextBox rtxtShow;
-        private System.Windows.Forms.Button btnGet;
+        private System.Windows.Forms.TextBox txtShow;
     }
 }
