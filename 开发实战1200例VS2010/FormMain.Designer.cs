@@ -58,21 +58,35 @@
             System.Windows.Forms.TreeNode treeNode17 = new System.Windows.Forms.TreeNode("029 判断指定月份属于哪个季节");
             System.Windows.Forms.TreeNode treeNode18 = new System.Windows.Forms.TreeNode("030 使用switch语句更改窗体颜色");
             System.Windows.Forms.TreeNode treeNode19 = new System.Windows.Forms.TreeNode("031 循环向控制台中输入内容");
-            System.Windows.Forms.TreeNode treeNode20 = new System.Windows.Forms.TreeNode("2.4 流程控制语句的使用", new System.Windows.Forms.TreeNode[] {
+            System.Windows.Forms.TreeNode treeNode20 = new System.Windows.Forms.TreeNode("032 递归算法的经典面试题");
+            System.Windows.Forms.TreeNode treeNode21 = new System.Windows.Forms.TreeNode("033 制作一个数字猜猜看小游戏");
+            System.Windows.Forms.TreeNode treeNode22 = new System.Windows.Forms.TreeNode("034 使用goto语句在数组中搜索指定图书");
+            System.Windows.Forms.TreeNode treeNode23 = new System.Windows.Forms.TreeNode("2.4 流程控制语句的使用", new System.Windows.Forms.TreeNode[] {
             treeNode15,
             treeNode16,
             treeNode17,
             treeNode18,
-            treeNode19});
-            System.Windows.Forms.TreeNode treeNode21 = new System.Windows.Forms.TreeNode("第2章 C#语言基础应用", new System.Windows.Forms.TreeNode[] {
+            treeNode19,
+            treeNode20,
+            treeNode21,
+            treeNode22});
+            System.Windows.Forms.TreeNode treeNode24 = new System.Windows.Forms.TreeNode("第2章 C#语言基础应用", new System.Windows.Forms.TreeNode[] {
             treeNode8,
             treeNode14,
-            treeNode20});
-            System.Windows.Forms.TreeNode treeNode22 = new System.Windows.Forms.TreeNode("第1篇 C#编程基础篇", new System.Windows.Forms.TreeNode[] {
+            treeNode23});
+            System.Windows.Forms.TreeNode treeNode25 = new System.Windows.Forms.TreeNode("035 将字母全部转换为大写或小写");
+            System.Windows.Forms.TreeNode treeNode26 = new System.Windows.Forms.TreeNode("036 字母与ASCII码的转换");
+            System.Windows.Forms.TreeNode treeNode27 = new System.Windows.Forms.TreeNode("3.1 字符及字符串转换", new System.Windows.Forms.TreeNode[] {
+            treeNode25,
+            treeNode26});
+            System.Windows.Forms.TreeNode treeNode28 = new System.Windows.Forms.TreeNode("第3章 字符串处理技术", new System.Windows.Forms.TreeNode[] {
+            treeNode27});
+            System.Windows.Forms.TreeNode treeNode29 = new System.Windows.Forms.TreeNode("第1篇 C#编程基础篇", new System.Windows.Forms.TreeNode[] {
             treeNode1,
-            treeNode21});
-            System.Windows.Forms.TreeNode treeNode23 = new System.Windows.Forms.TreeNode("第1卷", new System.Windows.Forms.TreeNode[] {
-            treeNode22});
+            treeNode24,
+            treeNode28});
+            System.Windows.Forms.TreeNode treeNode30 = new System.Windows.Forms.TreeNode("第1卷", new System.Windows.Forms.TreeNode[] {
+            treeNode29});
             this.splitContainer1 = new System.Windows.Forms.SplitContainer();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
             this.tvMenu = new System.Windows.Forms.TreeView();
@@ -180,16 +194,35 @@
             treeNode19.Tag = "1-31";
             treeNode19.Text = "031 循环向控制台中输入内容";
             treeNode20.Name = "节点0";
-            treeNode20.Text = "2.4 流程控制语句的使用";
-            treeNode21.Name = "节点9";
-            treeNode21.Text = "第2章 C#语言基础应用";
-            treeNode22.Name = "节点7";
-            treeNode22.Text = "第1篇 C#编程基础篇";
-            treeNode23.Name = "节点6";
-            treeNode23.Tag = "";
-            treeNode23.Text = "第1卷";
+            treeNode20.Tag = "1-32";
+            treeNode20.Text = "032 递归算法的经典面试题";
+            treeNode21.Name = "节点1";
+            treeNode21.Tag = "1-33";
+            treeNode21.Text = "033 制作一个数字猜猜看小游戏";
+            treeNode22.Name = "节点0";
+            treeNode22.Tag = "1-34";
+            treeNode22.Text = "034 使用goto语句在数组中搜索指定图书";
+            treeNode23.Name = "节点0";
+            treeNode23.Text = "2.4 流程控制语句的使用";
+            treeNode24.Name = "节点9";
+            treeNode24.Text = "第2章 C#语言基础应用";
+            treeNode25.Name = "节点3";
+            treeNode25.Tag = "1-35";
+            treeNode25.Text = "035 将字母全部转换为大写或小写";
+            treeNode26.Name = "节点4";
+            treeNode26.Tag = "1-36";
+            treeNode26.Text = "036 字母与ASCII码的转换";
+            treeNode27.Name = "节点2";
+            treeNode27.Text = "3.1 字符及字符串转换";
+            treeNode28.Name = "节点1";
+            treeNode28.Text = "第3章 字符串处理技术";
+            treeNode29.Name = "节点7";
+            treeNode29.Text = "第1篇 C#编程基础篇";
+            treeNode30.Name = "节点6";
+            treeNode30.Tag = "";
+            treeNode30.Text = "第1卷";
             this.tvMenu.Nodes.AddRange(new System.Windows.Forms.TreeNode[] {
-            treeNode23});
+            treeNode30});
             this.tvMenu.Size = new System.Drawing.Size(566, 918);
             this.tvMenu.TabIndex = 0;
             this.tvMenu.MouseClick += new System.Windows.Forms.MouseEventHandler(this.tvMenu_MouseClick);

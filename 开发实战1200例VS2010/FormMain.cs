@@ -16,9 +16,6 @@ namespace 开发实战1200例VS2010
     {
         string path = Directory.GetCurrentDirectory();
 
-        [DllImport("USER32.DLL")]
-        public static extern bool SetForegroundWindow(IntPtr hWnd);
-
         public FormMain()
         {
             InitializeComponent();
@@ -26,7 +23,6 @@ namespace 开发实战1200例VS2010
 
         private void FormMain_Load(object sender, EventArgs e)
         {
-            tvMenu.ExpandAll();
         }
 
         private void tvMenu_MouseClick(object sender, MouseEventArgs e)
@@ -152,6 +148,36 @@ namespace 开发实战1200例VS2010
                 case "1-31":
                     {
                         _1_031.UCMain ucMain = new _1_031.UCMain();
+                        AddTab(ucMain, node);
+                    }
+                    break;
+                case "1-32":
+                    {
+                        _1_032.UCMain ucMain = new _1_032.UCMain();
+                        AddTab(ucMain, node);
+                    }
+                    break;
+                case "1-33":
+                    {
+                        _1_033.UCMain ucMain = new _1_033.UCMain();
+                        AddTab(ucMain, node);
+                    }
+                    break;
+                case "1-34":
+                    {
+                        _1_034.UCMain ucMain = new _1_034.UCMain();
+                        AddTab(ucMain, node);
+                    }
+                    break;
+                case "1-35":
+                    {
+                        _1_035.UCMain ucMain = new _1_035.UCMain();
+                        AddTab(ucMain, node);
+                    }
+                    break;
+                case "1-36":
+                    {
+                        _1_036.UCMain ucMain = new _1_036.UCMain();
                         AddTab(ucMain, node);
                     }
                     break;
