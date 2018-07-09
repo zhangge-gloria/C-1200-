@@ -76,17 +76,25 @@
             treeNode23});
             System.Windows.Forms.TreeNode treeNode25 = new System.Windows.Forms.TreeNode("035 将字母全部转换为大写或小写");
             System.Windows.Forms.TreeNode treeNode26 = new System.Windows.Forms.TreeNode("036 字母与ASCII码的转换");
-            System.Windows.Forms.TreeNode treeNode27 = new System.Windows.Forms.TreeNode("3.1 字符及字符串转换", new System.Windows.Forms.TreeNode[] {
+            System.Windows.Forms.TreeNode treeNode27 = new System.Windows.Forms.TreeNode("037 汉字与区位码的转换");
+            System.Windows.Forms.TreeNode treeNode28 = new System.Windows.Forms.TreeNode("038 将汉字转换为拼音");
+            System.Windows.Forms.TreeNode treeNode29 = new System.Windows.Forms.TreeNode("3.1 字符及字符串转换", new System.Windows.Forms.TreeNode[] {
             treeNode25,
-            treeNode26});
-            System.Windows.Forms.TreeNode treeNode28 = new System.Windows.Forms.TreeNode("第3章 字符串处理技术", new System.Windows.Forms.TreeNode[] {
-            treeNode27});
-            System.Windows.Forms.TreeNode treeNode29 = new System.Windows.Forms.TreeNode("第1篇 C#编程基础篇", new System.Windows.Forms.TreeNode[] {
+            treeNode26,
+            treeNode27,
+            treeNode28});
+            System.Windows.Forms.TreeNode treeNode30 = new System.Windows.Forms.TreeNode("039 根据标点符号对字符串进行分行");
+            System.Windows.Forms.TreeNode treeNode31 = new System.Windows.Forms.TreeNode("3.2 常用字符及字符串操作", new System.Windows.Forms.TreeNode[] {
+            treeNode30});
+            System.Windows.Forms.TreeNode treeNode32 = new System.Windows.Forms.TreeNode("第3章 字符串处理技术", new System.Windows.Forms.TreeNode[] {
+            treeNode29,
+            treeNode31});
+            System.Windows.Forms.TreeNode treeNode33 = new System.Windows.Forms.TreeNode("第1篇 C#编程基础篇", new System.Windows.Forms.TreeNode[] {
             treeNode1,
             treeNode24,
-            treeNode28});
-            System.Windows.Forms.TreeNode treeNode30 = new System.Windows.Forms.TreeNode("第1卷", new System.Windows.Forms.TreeNode[] {
-            treeNode29});
+            treeNode32});
+            System.Windows.Forms.TreeNode treeNode34 = new System.Windows.Forms.TreeNode("第1卷", new System.Windows.Forms.TreeNode[] {
+            treeNode33});
             this.splitContainer1 = new System.Windows.Forms.SplitContainer();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
             this.tvMenu = new System.Windows.Forms.TreeView();
@@ -212,17 +220,29 @@
             treeNode26.Name = "节点4";
             treeNode26.Tag = "1-36";
             treeNode26.Text = "036 字母与ASCII码的转换";
-            treeNode27.Name = "节点2";
-            treeNode27.Text = "3.1 字符及字符串转换";
+            treeNode27.Name = "节点0";
+            treeNode27.Tag = "1-37";
+            treeNode27.Text = "037 汉字与区位码的转换";
             treeNode28.Name = "节点1";
-            treeNode28.Text = "第3章 字符串处理技术";
-            treeNode29.Name = "节点7";
-            treeNode29.Text = "第1篇 C#编程基础篇";
-            treeNode30.Name = "节点6";
-            treeNode30.Tag = "";
-            treeNode30.Text = "第1卷";
+            treeNode28.Tag = "1-38";
+            treeNode28.Text = "038 将汉字转换为拼音";
+            treeNode29.Name = "节点2";
+            treeNode29.Tag = "";
+            treeNode29.Text = "3.1 字符及字符串转换";
+            treeNode30.Name = "节点3";
+            treeNode30.Tag = "1-39";
+            treeNode30.Text = "039 根据标点符号对字符串进行分行";
+            treeNode31.Name = "节点2";
+            treeNode31.Text = "3.2 常用字符及字符串操作";
+            treeNode32.Name = "节点1";
+            treeNode32.Text = "第3章 字符串处理技术";
+            treeNode33.Name = "节点7";
+            treeNode33.Text = "第1篇 C#编程基础篇";
+            treeNode34.Name = "节点6";
+            treeNode34.Tag = "";
+            treeNode34.Text = "第1卷";
             this.tvMenu.Nodes.AddRange(new System.Windows.Forms.TreeNode[] {
-            treeNode30});
+            treeNode34});
             this.tvMenu.Size = new System.Drawing.Size(566, 918);
             this.tvMenu.TabIndex = 0;
             this.tvMenu.MouseClick += new System.Windows.Forms.MouseEventHandler(this.tvMenu_MouseClick);
