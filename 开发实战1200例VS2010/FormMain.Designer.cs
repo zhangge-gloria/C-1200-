@@ -84,17 +84,23 @@
             treeNode27,
             treeNode28});
             System.Windows.Forms.TreeNode treeNode30 = new System.Windows.Forms.TreeNode("039 根据标点符号对字符串进行分行");
-            System.Windows.Forms.TreeNode treeNode31 = new System.Windows.Forms.TreeNode("3.2 常用字符及字符串操作", new System.Windows.Forms.TreeNode[] {
-            treeNode30});
-            System.Windows.Forms.TreeNode treeNode32 = new System.Windows.Forms.TreeNode("第3章 字符串处理技术", new System.Windows.Forms.TreeNode[] {
+            System.Windows.Forms.TreeNode treeNode31 = new System.Windows.Forms.TreeNode("040 判断用户输入的用户名是否正确");
+            System.Windows.Forms.TreeNode treeNode32 = new System.Windows.Forms.TreeNode("041 将字符串的每个字符进行颠倒输出");
+            System.Windows.Forms.TreeNode treeNode33 = new System.Windows.Forms.TreeNode("042 去掉字符串中的所有空格");
+            System.Windows.Forms.TreeNode treeNode34 = new System.Windows.Forms.TreeNode("3.2 常用字符及字符串操作", new System.Windows.Forms.TreeNode[] {
+            treeNode30,
+            treeNode31,
+            treeNode32,
+            treeNode33});
+            System.Windows.Forms.TreeNode treeNode35 = new System.Windows.Forms.TreeNode("第3章 字符串处理技术", new System.Windows.Forms.TreeNode[] {
             treeNode29,
-            treeNode31});
-            System.Windows.Forms.TreeNode treeNode33 = new System.Windows.Forms.TreeNode("第1篇 C#编程基础篇", new System.Windows.Forms.TreeNode[] {
+            treeNode34});
+            System.Windows.Forms.TreeNode treeNode36 = new System.Windows.Forms.TreeNode("第1篇 C#编程基础篇", new System.Windows.Forms.TreeNode[] {
             treeNode1,
             treeNode24,
-            treeNode32});
-            System.Windows.Forms.TreeNode treeNode34 = new System.Windows.Forms.TreeNode("第1卷", new System.Windows.Forms.TreeNode[] {
-            treeNode33});
+            treeNode35});
+            System.Windows.Forms.TreeNode treeNode37 = new System.Windows.Forms.TreeNode("第1卷", new System.Windows.Forms.TreeNode[] {
+            treeNode36});
             this.splitContainer1 = new System.Windows.Forms.SplitContainer();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
             this.tvMenu = new System.Windows.Forms.TreeView();
@@ -232,17 +238,26 @@
             treeNode30.Name = "节点3";
             treeNode30.Tag = "1-39";
             treeNode30.Text = "039 根据标点符号对字符串进行分行";
-            treeNode31.Name = "节点2";
-            treeNode31.Text = "3.2 常用字符及字符串操作";
+            treeNode31.Name = "节点0";
+            treeNode31.Tag = "1-40";
+            treeNode31.Text = "040 判断用户输入的用户名是否正确";
             treeNode32.Name = "节点1";
-            treeNode32.Text = "第3章 字符串处理技术";
-            treeNode33.Name = "节点7";
-            treeNode33.Text = "第1篇 C#编程基础篇";
-            treeNode34.Name = "节点6";
-            treeNode34.Tag = "";
-            treeNode34.Text = "第1卷";
+            treeNode32.Tag = "1-41";
+            treeNode32.Text = "041 将字符串的每个字符进行颠倒输出";
+            treeNode33.Name = "节点2";
+            treeNode33.Tag = "1-42";
+            treeNode33.Text = "042 去掉字符串中的所有空格";
+            treeNode34.Name = "节点2";
+            treeNode34.Text = "3.2 常用字符及字符串操作";
+            treeNode35.Name = "节点1";
+            treeNode35.Text = "第3章 字符串处理技术";
+            treeNode36.Name = "节点7";
+            treeNode36.Text = "第1篇 C#编程基础篇";
+            treeNode37.Name = "节点6";
+            treeNode37.Tag = "";
+            treeNode37.Text = "第1卷";
             this.tvMenu.Nodes.AddRange(new System.Windows.Forms.TreeNode[] {
-            treeNode34});
+            treeNode37});
             this.tvMenu.Size = new System.Drawing.Size(566, 918);
             this.tvMenu.TabIndex = 0;
             this.tvMenu.MouseClick += new System.Windows.Forms.MouseEventHandler(this.tvMenu_MouseClick);
