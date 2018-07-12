@@ -30,9 +30,9 @@
         {
             this.lbBooks = new System.Windows.Forms.ListBox();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
-            this.label1 = new System.Windows.Forms.Label();
-            this.txtBook = new System.Windows.Forms.TextBox();
             this.btnSearch = new System.Windows.Forms.Button();
+            this.txtBook = new System.Windows.Forms.TextBox();
+            this.label1 = new System.Windows.Forms.Label();
             this.groupBox1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -46,7 +46,7 @@
             "C#视频学",
             "C#项目开发全程实录",
             "C#项目开发实例自学手册",
-            "c#编程词典",
+            "C#编程词典",
             "C#实战宝典",
             "C#经验技巧宝典",
             "C#入门模式"});
@@ -67,22 +67,6 @@
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "搜索图书";
             // 
-            // label1
-            // 
-            this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(95, 73);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(112, 27);
-            this.label1.TabIndex = 0;
-            this.label1.Text = "搜索书名：";
-            // 
-            // txtBook
-            // 
-            this.txtBook.Location = new System.Drawing.Point(34, 126);
-            this.txtBook.Name = "txtBook";
-            this.txtBook.Size = new System.Drawing.Size(234, 34);
-            this.txtBook.TabIndex = 1;
-            // 
             // btnSearch
             // 
             this.btnSearch.Location = new System.Drawing.Point(98, 186);
@@ -92,6 +76,22 @@
             this.btnSearch.Text = "搜索";
             this.btnSearch.UseVisualStyleBackColor = true;
             this.btnSearch.Click += new System.EventHandler(this.btnSearch_Click);
+            // 
+            // txtBook
+            // 
+            this.txtBook.Location = new System.Drawing.Point(34, 126);
+            this.txtBook.Name = "txtBook";
+            this.txtBook.Size = new System.Drawing.Size(234, 34);
+            this.txtBook.TabIndex = 1;
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Location = new System.Drawing.Point(95, 73);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(112, 27);
+            this.label1.TabIndex = 0;
+            this.label1.Text = "搜索书名：";
             // 
             // UCMain
             // 

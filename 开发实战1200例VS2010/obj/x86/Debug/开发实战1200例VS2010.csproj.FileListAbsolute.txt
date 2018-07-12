@@ -77,3 +77,6 @@ F:\zge\练习\开发实战1200例VS2010\开发实战1200例VS2010\obj\x86\Debug\
 F:\zge\练习\开发实战1200例VS2010\开发实战1200例VS2010\obj\x86\Debug\开发实战1200例VS2010._1_040.UCMain.resources
 F:\zge\练习\开发实战1200例VS2010\开发实战1200例VS2010\obj\x86\Debug\开发实战1200例VS2010._1_041.UCMain.resources
 F:\zge\练习\开发实战1200例VS2010\开发实战1200例VS2010\obj\x86\Debug\开发实战1200例VS2010._1_042.UCMain.resources
+F:\zge\练习\开发实战1200例VS2010\开发实战1200例VS2010\obj\x86\Debug\开发实战1200例VS2010._1_043.UCMain.resources
+F:\zge\练习\开发实战1200例VS2010\开发实战1200例VS2010\obj\x86\Debug\开发实战1200例VS2010._1_044.UCMain.resources
+F:\zge\练习\开发实战1200例VS2010\开发实战1200例VS2010\obj\x86\Debug\开发实战1200例VS2010._1_045.UCMain.resources
