@@ -90,23 +90,31 @@
             System.Windows.Forms.TreeNode treeNode34 = new System.Windows.Forms.TreeNode("043 从字符串中分离文件路径、文件名及扩展名");
             System.Windows.Forms.TreeNode treeNode35 = new System.Windows.Forms.TreeNode("044 获取字符串中汉字的个数");
             System.Windows.Forms.TreeNode treeNode36 = new System.Windows.Forms.TreeNode("045 批量替换某一类字符串");
-            System.Windows.Forms.TreeNode treeNode37 = new System.Windows.Forms.TreeNode("3.2 常用字符及字符串操作", new System.Windows.Forms.TreeNode[] {
+            System.Windows.Forms.TreeNode treeNode37 = new System.Windows.Forms.TreeNode("046 对字符串进行加密与解密");
+            System.Windows.Forms.TreeNode treeNode38 = new System.Windows.Forms.TreeNode("3.2 常用字符及字符串操作", new System.Windows.Forms.TreeNode[] {
             treeNode30,
             treeNode31,
             treeNode32,
             treeNode33,
             treeNode34,
             treeNode35,
-            treeNode36});
-            System.Windows.Forms.TreeNode treeNode38 = new System.Windows.Forms.TreeNode("第3章 字符串处理技术", new System.Windows.Forms.TreeNode[] {
-            treeNode29,
+            treeNode36,
             treeNode37});
-            System.Windows.Forms.TreeNode treeNode39 = new System.Windows.Forms.TreeNode("第1篇 C#编程基础篇", new System.Windows.Forms.TreeNode[] {
+            System.Windows.Forms.TreeNode treeNode39 = new System.Windows.Forms.TreeNode("047 判断输入的货币值是否为数字");
+            System.Windows.Forms.TreeNode treeNode40 = new System.Windows.Forms.TreeNode("048 对计算结果进行四舍五入");
+            System.Windows.Forms.TreeNode treeNode41 = new System.Windows.Forms.TreeNode("3.3 常用数字处理技术", new System.Windows.Forms.TreeNode[] {
+            treeNode39,
+            treeNode40});
+            System.Windows.Forms.TreeNode treeNode42 = new System.Windows.Forms.TreeNode("第3章 字符串处理技术", new System.Windows.Forms.TreeNode[] {
+            treeNode29,
+            treeNode38,
+            treeNode41});
+            System.Windows.Forms.TreeNode treeNode43 = new System.Windows.Forms.TreeNode("第1篇 C#编程基础篇", new System.Windows.Forms.TreeNode[] {
             treeNode1,
             treeNode24,
-            treeNode38});
-            System.Windows.Forms.TreeNode treeNode40 = new System.Windows.Forms.TreeNode("第1卷", new System.Windows.Forms.TreeNode[] {
-            treeNode39});
+            treeNode42});
+            System.Windows.Forms.TreeNode treeNode44 = new System.Windows.Forms.TreeNode("第1卷", new System.Windows.Forms.TreeNode[] {
+            treeNode43});
             this.splitContainer1 = new System.Windows.Forms.SplitContainer();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
             this.tvMenu = new System.Windows.Forms.TreeView();
@@ -262,17 +270,28 @@
             treeNode36.Name = "节点2";
             treeNode36.Tag = "1-45";
             treeNode36.Text = "045 批量替换某一类字符串";
-            treeNode37.Name = "节点2";
-            treeNode37.Text = "3.2 常用字符及字符串操作";
-            treeNode38.Name = "节点1";
-            treeNode38.Text = "第3章 字符串处理技术";
-            treeNode39.Name = "节点7";
-            treeNode39.Text = "第1篇 C#编程基础篇";
-            treeNode40.Name = "节点6";
-            treeNode40.Tag = "";
-            treeNode40.Text = "第1卷";
+            treeNode37.Name = "节点0";
+            treeNode37.Tag = "1-46";
+            treeNode37.Text = "046 对字符串进行加密与解密";
+            treeNode38.Name = "节点2";
+            treeNode38.Text = "3.2 常用字符及字符串操作";
+            treeNode39.Name = "节点1";
+            treeNode39.Tag = "1-47";
+            treeNode39.Text = "047 判断输入的货币值是否为数字";
+            treeNode40.Name = "节点2";
+            treeNode40.Tag = "1-48";
+            treeNode40.Text = "048 对计算结果进行四舍五入";
+            treeNode41.Name = "节点0";
+            treeNode41.Text = "3.3 常用数字处理技术";
+            treeNode42.Name = "节点1";
+            treeNode42.Text = "第3章 字符串处理技术";
+            treeNode43.Name = "节点7";
+            treeNode43.Text = "第1篇 C#编程基础篇";
+            treeNode44.Name = "节点6";
+            treeNode44.Tag = "";
+            treeNode44.Text = "第1卷";
             this.tvMenu.Nodes.AddRange(new System.Windows.Forms.TreeNode[] {
-            treeNode40});
+            treeNode44});
             this.tvMenu.Size = new System.Drawing.Size(566, 918);
             this.tvMenu.TabIndex = 0;
             this.tvMenu.MouseClick += new System.Windows.Forms.MouseEventHandler(this.tvMenu_MouseClick);
