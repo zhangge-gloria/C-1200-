@@ -102,19 +102,25 @@
             treeNode37});
             System.Windows.Forms.TreeNode treeNode39 = new System.Windows.Forms.TreeNode("047 判断输入的货币值是否为数字");
             System.Windows.Forms.TreeNode treeNode40 = new System.Windows.Forms.TreeNode("048 对计算结果进行四舍五入");
-            System.Windows.Forms.TreeNode treeNode41 = new System.Windows.Forms.TreeNode("3.3 常用数字处理技术", new System.Windows.Forms.TreeNode[] {
+            System.Windows.Forms.TreeNode treeNode41 = new System.Windows.Forms.TreeNode("049 商品金额的大小写转换");
+            System.Windows.Forms.TreeNode treeNode42 = new System.Windows.Forms.TreeNode("050 设置货币值中使用的小数位数");
+            System.Windows.Forms.TreeNode treeNode43 = new System.Windows.Forms.TreeNode("051 格式化输入数据为货币格式");
+            System.Windows.Forms.TreeNode treeNode44 = new System.Windows.Forms.TreeNode("3.3 常用数字处理技术", new System.Windows.Forms.TreeNode[] {
             treeNode39,
-            treeNode40});
-            System.Windows.Forms.TreeNode treeNode42 = new System.Windows.Forms.TreeNode("第3章 字符串处理技术", new System.Windows.Forms.TreeNode[] {
+            treeNode40,
+            treeNode41,
+            treeNode42,
+            treeNode43});
+            System.Windows.Forms.TreeNode treeNode45 = new System.Windows.Forms.TreeNode("第3章 字符串处理技术", new System.Windows.Forms.TreeNode[] {
             treeNode29,
             treeNode38,
-            treeNode41});
-            System.Windows.Forms.TreeNode treeNode43 = new System.Windows.Forms.TreeNode("第1篇 C#编程基础篇", new System.Windows.Forms.TreeNode[] {
+            treeNode44});
+            System.Windows.Forms.TreeNode treeNode46 = new System.Windows.Forms.TreeNode("第1篇 C#编程基础篇", new System.Windows.Forms.TreeNode[] {
             treeNode1,
             treeNode24,
-            treeNode42});
-            System.Windows.Forms.TreeNode treeNode44 = new System.Windows.Forms.TreeNode("第1卷", new System.Windows.Forms.TreeNode[] {
-            treeNode43});
+            treeNode45});
+            System.Windows.Forms.TreeNode treeNode47 = new System.Windows.Forms.TreeNode("第1卷", new System.Windows.Forms.TreeNode[] {
+            treeNode46});
             this.splitContainer1 = new System.Windows.Forms.SplitContainer();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
             this.tvMenu = new System.Windows.Forms.TreeView();
@@ -282,16 +288,25 @@
             treeNode40.Tag = "1-48";
             treeNode40.Text = "048 对计算结果进行四舍五入";
             treeNode41.Name = "节点0";
-            treeNode41.Text = "3.3 常用数字处理技术";
+            treeNode41.Tag = "1-49";
+            treeNode41.Text = "049 商品金额的大小写转换";
             treeNode42.Name = "节点1";
-            treeNode42.Text = "第3章 字符串处理技术";
-            treeNode43.Name = "节点7";
-            treeNode43.Text = "第1篇 C#编程基础篇";
-            treeNode44.Name = "节点6";
-            treeNode44.Tag = "";
-            treeNode44.Text = "第1卷";
+            treeNode42.Tag = "1-50";
+            treeNode42.Text = "050 设置货币值中使用的小数位数";
+            treeNode43.Name = "节点2";
+            treeNode43.Tag = "1-51";
+            treeNode43.Text = "051 格式化输入数据为货币格式";
+            treeNode44.Name = "节点0";
+            treeNode44.Text = "3.3 常用数字处理技术";
+            treeNode45.Name = "节点1";
+            treeNode45.Text = "第3章 字符串处理技术";
+            treeNode46.Name = "节点7";
+            treeNode46.Text = "第1篇 C#编程基础篇";
+            treeNode47.Name = "节点6";
+            treeNode47.Tag = "";
+            treeNode47.Text = "第1卷";
             this.tvMenu.Nodes.AddRange(new System.Windows.Forms.TreeNode[] {
-            treeNode44});
+            treeNode47});
             this.tvMenu.Size = new System.Drawing.Size(566, 918);
             this.tvMenu.TabIndex = 0;
             this.tvMenu.MouseClick += new System.Windows.Forms.MouseEventHandler(this.tvMenu_MouseClick);
