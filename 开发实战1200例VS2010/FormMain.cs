@@ -271,6 +271,24 @@ namespace 开发实战1200例VS2010
                         AddTab(ucMain, node);
                     }
                     break;
+                case "1-52":
+                    {
+                        _1_052.UCMain ucMain = new _1_052.UCMain();
+                        AddTab(ucMain, node);
+                    }
+                    break;
+                case "1-53":
+                    {
+                        _1_053.UCMain ucMain = new _1_053.UCMain();
+                        AddTab(ucMain, node);
+                    }
+                    break;
+                case "1-54":
+                    {
+                        _1_054.UCMain ucMain = new _1_054.UCMain();
+                        AddTab(ucMain, node);
+                    }
+                    break;
                 default:
                     break;
             }

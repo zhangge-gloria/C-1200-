@@ -105,22 +105,30 @@
             System.Windows.Forms.TreeNode treeNode41 = new System.Windows.Forms.TreeNode("049 商品金额的大小写转换");
             System.Windows.Forms.TreeNode treeNode42 = new System.Windows.Forms.TreeNode("050 设置货币值中使用的小数位数");
             System.Windows.Forms.TreeNode treeNode43 = new System.Windows.Forms.TreeNode("051 格式化输入数据为货币格式");
-            System.Windows.Forms.TreeNode treeNode44 = new System.Windows.Forms.TreeNode("3.3 常用数字处理技术", new System.Windows.Forms.TreeNode[] {
+            System.Windows.Forms.TreeNode treeNode44 = new System.Windows.Forms.TreeNode("052 开发一个进制转换器");
+            System.Windows.Forms.TreeNode treeNode45 = new System.Windows.Forms.TreeNode("3.3 常用数字处理技术", new System.Windows.Forms.TreeNode[] {
             treeNode39,
             treeNode40,
             treeNode41,
             treeNode42,
-            treeNode43});
-            System.Windows.Forms.TreeNode treeNode45 = new System.Windows.Forms.TreeNode("第3章 字符串处理技术", new System.Windows.Forms.TreeNode[] {
+            treeNode43,
+            treeNode44});
+            System.Windows.Forms.TreeNode treeNode46 = new System.Windows.Forms.TreeNode("053 动态获得系统当前日期和时间");
+            System.Windows.Forms.TreeNode treeNode47 = new System.Windows.Forms.TreeNode("054 手动设置系统日期时间");
+            System.Windows.Forms.TreeNode treeNode48 = new System.Windows.Forms.TreeNode("3.4 日期时间格式的数据处理", new System.Windows.Forms.TreeNode[] {
+            treeNode46,
+            treeNode47});
+            System.Windows.Forms.TreeNode treeNode49 = new System.Windows.Forms.TreeNode("第3章 字符串处理技术", new System.Windows.Forms.TreeNode[] {
             treeNode29,
             treeNode38,
-            treeNode44});
-            System.Windows.Forms.TreeNode treeNode46 = new System.Windows.Forms.TreeNode("第1篇 C#编程基础篇", new System.Windows.Forms.TreeNode[] {
+            treeNode45,
+            treeNode48});
+            System.Windows.Forms.TreeNode treeNode50 = new System.Windows.Forms.TreeNode("第1篇 C#编程基础篇", new System.Windows.Forms.TreeNode[] {
             treeNode1,
             treeNode24,
-            treeNode45});
-            System.Windows.Forms.TreeNode treeNode47 = new System.Windows.Forms.TreeNode("第1卷", new System.Windows.Forms.TreeNode[] {
-            treeNode46});
+            treeNode49});
+            System.Windows.Forms.TreeNode treeNode51 = new System.Windows.Forms.TreeNode("第1卷", new System.Windows.Forms.TreeNode[] {
+            treeNode50});
             this.splitContainer1 = new System.Windows.Forms.SplitContainer();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
             this.tvMenu = new System.Windows.Forms.TreeView();
@@ -297,16 +305,27 @@
             treeNode43.Tag = "1-51";
             treeNode43.Text = "051 格式化输入数据为货币格式";
             treeNode44.Name = "节点0";
-            treeNode44.Text = "3.3 常用数字处理技术";
-            treeNode45.Name = "节点1";
-            treeNode45.Text = "第3章 字符串处理技术";
-            treeNode46.Name = "节点7";
-            treeNode46.Text = "第1篇 C#编程基础篇";
-            treeNode47.Name = "节点6";
-            treeNode47.Tag = "";
-            treeNode47.Text = "第1卷";
+            treeNode44.Tag = "1-52";
+            treeNode44.Text = "052 开发一个进制转换器";
+            treeNode45.Name = "节点0";
+            treeNode45.Text = "3.3 常用数字处理技术";
+            treeNode46.Name = "节点2";
+            treeNode46.Tag = "1-53";
+            treeNode46.Text = "053 动态获得系统当前日期和时间";
+            treeNode47.Name = "节点0";
+            treeNode47.Tag = "1-54";
+            treeNode47.Text = "054 手动设置系统日期时间";
+            treeNode48.Name = "节点1";
+            treeNode48.Text = "3.4 日期时间格式的数据处理";
+            treeNode49.Name = "节点1";
+            treeNode49.Text = "第3章 字符串处理技术";
+            treeNode50.Name = "节点7";
+            treeNode50.Text = "第1篇 C#编程基础篇";
+            treeNode51.Name = "节点6";
+            treeNode51.Tag = "";
+            treeNode51.Text = "第1卷";
             this.tvMenu.Nodes.AddRange(new System.Windows.Forms.TreeNode[] {
-            treeNode47});
+            treeNode51});
             this.tvMenu.Size = new System.Drawing.Size(566, 918);
             this.tvMenu.TabIndex = 0;
             this.tvMenu.MouseClick += new System.Windows.Forms.MouseEventHandler(this.tvMenu_MouseClick);
