@@ -118,23 +118,29 @@
             System.Windows.Forms.TreeNode treeNode48 = new System.Windows.Forms.TreeNode("055 根据生日自动计算员工年龄");
             System.Windows.Forms.TreeNode treeNode49 = new System.Windows.Forms.TreeNode("056 根据年份判断十二生肖");
             System.Windows.Forms.TreeNode treeNode50 = new System.Windows.Forms.TreeNode("057 获取当前日期是星期几");
-            System.Windows.Forms.TreeNode treeNode51 = new System.Windows.Forms.TreeNode("3.4 日期时间格式的数据处理", new System.Windows.Forms.TreeNode[] {
+            System.Windows.Forms.TreeNode treeNode51 = new System.Windows.Forms.TreeNode("058 获取当前年的天数");
+            System.Windows.Forms.TreeNode treeNode52 = new System.Windows.Forms.TreeNode("059 获取当前月的天数");
+            System.Windows.Forms.TreeNode treeNode53 = new System.Windows.Forms.TreeNode("060 获取当前日期的前一天");
+            System.Windows.Forms.TreeNode treeNode54 = new System.Windows.Forms.TreeNode("3.4 日期时间格式的数据处理", new System.Windows.Forms.TreeNode[] {
             treeNode46,
             treeNode47,
             treeNode48,
             treeNode49,
-            treeNode50});
-            System.Windows.Forms.TreeNode treeNode52 = new System.Windows.Forms.TreeNode("第3章 字符串处理技术", new System.Windows.Forms.TreeNode[] {
+            treeNode50,
+            treeNode51,
+            treeNode52,
+            treeNode53});
+            System.Windows.Forms.TreeNode treeNode55 = new System.Windows.Forms.TreeNode("第3章 字符串处理技术", new System.Windows.Forms.TreeNode[] {
             treeNode29,
             treeNode38,
             treeNode45,
-            treeNode51});
-            System.Windows.Forms.TreeNode treeNode53 = new System.Windows.Forms.TreeNode("第1篇 C#编程基础篇", new System.Windows.Forms.TreeNode[] {
+            treeNode54});
+            System.Windows.Forms.TreeNode treeNode56 = new System.Windows.Forms.TreeNode("第1篇 C#编程基础篇", new System.Windows.Forms.TreeNode[] {
             treeNode1,
             treeNode24,
-            treeNode52});
-            System.Windows.Forms.TreeNode treeNode54 = new System.Windows.Forms.TreeNode("第1卷", new System.Windows.Forms.TreeNode[] {
-            treeNode53});
+            treeNode55});
+            System.Windows.Forms.TreeNode treeNode57 = new System.Windows.Forms.TreeNode("第1卷", new System.Windows.Forms.TreeNode[] {
+            treeNode56});
             this.splitContainer1 = new System.Windows.Forms.SplitContainer();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
             this.tvMenu = new System.Windows.Forms.TreeView();
@@ -330,17 +336,26 @@
             treeNode50.Name = "节点2";
             treeNode50.Tag = "1-57";
             treeNode50.Text = "057 获取当前日期是星期几";
-            treeNode51.Name = "节点1";
-            treeNode51.Text = "3.4 日期时间格式的数据处理";
+            treeNode51.Name = "节点0";
+            treeNode51.Tag = "1-58";
+            treeNode51.Text = "058 获取当前年的天数";
             treeNode52.Name = "节点1";
-            treeNode52.Text = "第3章 字符串处理技术";
-            treeNode53.Name = "节点7";
-            treeNode53.Text = "第1篇 C#编程基础篇";
-            treeNode54.Name = "节点6";
-            treeNode54.Tag = "";
-            treeNode54.Text = "第1卷";
+            treeNode52.Tag = "1-59";
+            treeNode52.Text = "059 获取当前月的天数";
+            treeNode53.Name = "节点2";
+            treeNode53.Tag = "1-60";
+            treeNode53.Text = "060 获取当前日期的前一天";
+            treeNode54.Name = "节点1";
+            treeNode54.Text = "3.4 日期时间格式的数据处理";
+            treeNode55.Name = "节点1";
+            treeNode55.Text = "第3章 字符串处理技术";
+            treeNode56.Name = "节点7";
+            treeNode56.Text = "第1篇 C#编程基础篇";
+            treeNode57.Name = "节点6";
+            treeNode57.Tag = "";
+            treeNode57.Text = "第1卷";
             this.tvMenu.Nodes.AddRange(new System.Windows.Forms.TreeNode[] {
-            treeNode54});
+            treeNode57});
             this.tvMenu.Size = new System.Drawing.Size(566, 918);
             this.tvMenu.TabIndex = 0;
             this.tvMenu.MouseClick += new System.Windows.Forms.MouseEventHandler(this.tvMenu_MouseClick);
