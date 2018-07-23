@@ -311,6 +311,24 @@
     <Compile Include="1-060\UCMain.Designer.cs">
       <DependentUpon>UCMain.cs</DependentUpon>
     </Compile>
+    <Compile Include="1-061\UCMain.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="1-061\UCMain.Designer.cs">
+      <DependentUpon>UCMain.cs</DependentUpon>
+    </Compile>
+    <Compile Include="1-062\UCMain.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="1-062\UCMain.Designer.cs">
+      <DependentUpon>UCMain.cs</DependentUpon>
+    </Compile>
+    <Compile Include="1-063\UCMain.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="1-063\UCMain.Designer.cs">
+      <DependentUpon>UCMain.cs</DependentUpon>
+    </Compile>
     <Compile Include="FormMain.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -449,6 +467,15 @@
       <DependentUpon>UCMain.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="1-060\UCMain.resx">
+      <DependentUpon>UCMain.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="1-061\UCMain.resx">
+      <DependentUpon>UCMain.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="1-062\UCMain.resx">
+      <DependentUpon>UCMain.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="1-063\UCMain.resx">
       <DependentUpon>UCMain.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="FormMain.resx">
