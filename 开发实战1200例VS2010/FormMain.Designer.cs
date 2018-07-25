@@ -127,7 +127,10 @@
             System.Windows.Forms.TreeNode treeNode57 = new System.Windows.Forms.TreeNode("064 使用TimeSpan对象获取时间间隔");
             System.Windows.Forms.TreeNode treeNode58 = new System.Windows.Forms.TreeNode("065 使用Sleep方法延迟时间");
             System.Windows.Forms.TreeNode treeNode59 = new System.Windows.Forms.TreeNode("066 如何确定程序的运行时间");
-            System.Windows.Forms.TreeNode treeNode60 = new System.Windows.Forms.TreeNode("3.4 日期时间格式的数据处理", new System.Windows.Forms.TreeNode[] {
+            System.Windows.Forms.TreeNode treeNode60 = new System.Windows.Forms.TreeNode("067 使用ParseExact方法将字符串转化为日期格式");
+            System.Windows.Forms.TreeNode treeNode61 = new System.Windows.Forms.TreeNode("068 使用ToString方法格式化日期");
+            System.Windows.Forms.TreeNode treeNode62 = new System.Windows.Forms.TreeNode("069 使用ToDateTime方法转换日期显示格式");
+            System.Windows.Forms.TreeNode treeNode63 = new System.Windows.Forms.TreeNode("3.4 日期时间格式的数据处理", new System.Windows.Forms.TreeNode[] {
             treeNode46,
             treeNode47,
             treeNode48,
@@ -141,18 +144,21 @@
             treeNode56,
             treeNode57,
             treeNode58,
-            treeNode59});
-            System.Windows.Forms.TreeNode treeNode61 = new System.Windows.Forms.TreeNode("第3章 字符串处理技术", new System.Windows.Forms.TreeNode[] {
+            treeNode59,
+            treeNode60,
+            treeNode61,
+            treeNode62});
+            System.Windows.Forms.TreeNode treeNode64 = new System.Windows.Forms.TreeNode("第3章 字符串处理技术", new System.Windows.Forms.TreeNode[] {
             treeNode29,
             treeNode38,
             treeNode45,
-            treeNode60});
-            System.Windows.Forms.TreeNode treeNode62 = new System.Windows.Forms.TreeNode("第1篇 C#编程基础篇", new System.Windows.Forms.TreeNode[] {
+            treeNode63});
+            System.Windows.Forms.TreeNode treeNode65 = new System.Windows.Forms.TreeNode("第1篇 C#编程基础篇", new System.Windows.Forms.TreeNode[] {
             treeNode1,
             treeNode24,
-            treeNode61});
-            System.Windows.Forms.TreeNode treeNode63 = new System.Windows.Forms.TreeNode("第1卷", new System.Windows.Forms.TreeNode[] {
-            treeNode62});
+            treeNode64});
+            System.Windows.Forms.TreeNode treeNode66 = new System.Windows.Forms.TreeNode("第1卷", new System.Windows.Forms.TreeNode[] {
+            treeNode65});
             this.splitContainer1 = new System.Windows.Forms.SplitContainer();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
             this.tvMenu = new System.Windows.Forms.TreeView();
@@ -375,17 +381,26 @@
             treeNode59.Name = "节点2";
             treeNode59.Tag = "1-66";
             treeNode59.Text = "066 如何确定程序的运行时间";
-            treeNode60.Name = "节点1";
-            treeNode60.Text = "3.4 日期时间格式的数据处理";
+            treeNode60.Name = "节点0";
+            treeNode60.Tag = "1-67";
+            treeNode60.Text = "067 使用ParseExact方法将字符串转化为日期格式";
             treeNode61.Name = "节点1";
-            treeNode61.Text = "第3章 字符串处理技术";
-            treeNode62.Name = "节点7";
-            treeNode62.Text = "第1篇 C#编程基础篇";
-            treeNode63.Name = "节点6";
-            treeNode63.Tag = "";
-            treeNode63.Text = "第1卷";
+            treeNode61.Tag = "1-68";
+            treeNode61.Text = "068 使用ToString方法格式化日期";
+            treeNode62.Name = "节点2";
+            treeNode62.Tag = "1-69";
+            treeNode62.Text = "069 使用ToDateTime方法转换日期显示格式";
+            treeNode63.Name = "节点1";
+            treeNode63.Text = "3.4 日期时间格式的数据处理";
+            treeNode64.Name = "节点1";
+            treeNode64.Text = "第3章 字符串处理技术";
+            treeNode65.Name = "节点7";
+            treeNode65.Text = "第1篇 C#编程基础篇";
+            treeNode66.Name = "节点6";
+            treeNode66.Tag = "";
+            treeNode66.Text = "第1卷";
             this.tvMenu.Nodes.AddRange(new System.Windows.Forms.TreeNode[] {
-            treeNode63});
+            treeNode66});
             this.tvMenu.Size = new System.Drawing.Size(566, 918);
             this.tvMenu.TabIndex = 0;
             this.tvMenu.MouseClick += new System.Windows.Forms.MouseEventHandler(this.tvMenu_MouseClick);
