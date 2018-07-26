@@ -148,17 +148,25 @@
             treeNode60,
             treeNode61,
             treeNode62});
-            System.Windows.Forms.TreeNode treeNode64 = new System.Windows.Forms.TreeNode("第3章 字符串处理技术", new System.Windows.Forms.TreeNode[] {
+            System.Windows.Forms.TreeNode treeNode64 = new System.Windows.Forms.TreeNode("070 使用正则表达式验证电话号码");
+            System.Windows.Forms.TreeNode treeNode65 = new System.Windows.Forms.TreeNode("071 使用正则表达式验证输入密码条件");
+            System.Windows.Forms.TreeNode treeNode66 = new System.Windows.Forms.TreeNode("072 使用正则表达式验证邮政编号");
+            System.Windows.Forms.TreeNode treeNode67 = new System.Windows.Forms.TreeNode("3.5 常用数字验证技巧", new System.Windows.Forms.TreeNode[] {
+            treeNode64,
+            treeNode65,
+            treeNode66});
+            System.Windows.Forms.TreeNode treeNode68 = new System.Windows.Forms.TreeNode("第3章 字符串处理技术", new System.Windows.Forms.TreeNode[] {
             treeNode29,
             treeNode38,
             treeNode45,
-            treeNode63});
-            System.Windows.Forms.TreeNode treeNode65 = new System.Windows.Forms.TreeNode("第1篇 C#编程基础篇", new System.Windows.Forms.TreeNode[] {
+            treeNode63,
+            treeNode67});
+            System.Windows.Forms.TreeNode treeNode69 = new System.Windows.Forms.TreeNode("第1篇 C#编程基础篇", new System.Windows.Forms.TreeNode[] {
             treeNode1,
             treeNode24,
-            treeNode64});
-            System.Windows.Forms.TreeNode treeNode66 = new System.Windows.Forms.TreeNode("第1卷", new System.Windows.Forms.TreeNode[] {
-            treeNode65});
+            treeNode68});
+            System.Windows.Forms.TreeNode treeNode70 = new System.Windows.Forms.TreeNode("第1卷", new System.Windows.Forms.TreeNode[] {
+            treeNode69});
             this.splitContainer1 = new System.Windows.Forms.SplitContainer();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
             this.tvMenu = new System.Windows.Forms.TreeView();
@@ -207,7 +215,7 @@
             // 
             this.tvMenu.Dock = System.Windows.Forms.DockStyle.Fill;
             this.tvMenu.Font = new System.Drawing.Font("微软雅黑", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.tvMenu.Location = new System.Drawing.Point(5, 32);
+            this.tvMenu.Location = new System.Drawing.Point(5, 48);
             this.tvMenu.Margin = new System.Windows.Forms.Padding(5);
             this.tvMenu.Name = "tvMenu";
             treeNode1.Name = "节点8";
@@ -393,15 +401,26 @@
             treeNode63.Name = "节点1";
             treeNode63.Text = "3.4 日期时间格式的数据处理";
             treeNode64.Name = "节点1";
-            treeNode64.Text = "第3章 字符串处理技术";
-            treeNode65.Name = "节点7";
-            treeNode65.Text = "第1篇 C#编程基础篇";
-            treeNode66.Name = "节点6";
-            treeNode66.Tag = "";
-            treeNode66.Text = "第1卷";
+            treeNode64.Tag = "1-70";
+            treeNode64.Text = "070 使用正则表达式验证电话号码";
+            treeNode65.Name = "节点2";
+            treeNode65.Tag = "1-71";
+            treeNode65.Text = "071 使用正则表达式验证输入密码条件";
+            treeNode66.Name = "节点3";
+            treeNode66.Tag = "1-72";
+            treeNode66.Text = "072 使用正则表达式验证邮政编号";
+            treeNode67.Name = "节点0";
+            treeNode67.Text = "3.5 常用数字验证技巧";
+            treeNode68.Name = "节点1";
+            treeNode68.Text = "第3章 字符串处理技术";
+            treeNode69.Name = "节点7";
+            treeNode69.Text = "第1篇 C#编程基础篇";
+            treeNode70.Name = "节点6";
+            treeNode70.Tag = "";
+            treeNode70.Text = "第1卷";
             this.tvMenu.Nodes.AddRange(new System.Windows.Forms.TreeNode[] {
-            treeNode66});
-            this.tvMenu.Size = new System.Drawing.Size(566, 918);
+            treeNode70});
+            this.tvMenu.Size = new System.Drawing.Size(566, 902);
             this.tvMenu.TabIndex = 0;
             this.tvMenu.MouseClick += new System.Windows.Forms.MouseEventHandler(this.tvMenu_MouseClick);
             // 
@@ -416,7 +435,7 @@
             // 
             // FormMain
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(12F, 27F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(19F, 41F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1902, 955);
             this.Controls.Add(this.splitContainer1);
