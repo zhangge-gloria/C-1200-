@@ -154,25 +154,31 @@
             System.Windows.Forms.TreeNode treeNode67 = new System.Windows.Forms.TreeNode("073 使用正则表达式验证手机号");
             System.Windows.Forms.TreeNode treeNode68 = new System.Windows.Forms.TreeNode("074 使用正则表达式验证身份证号");
             System.Windows.Forms.TreeNode treeNode69 = new System.Windows.Forms.TreeNode("075 适用正则表达式验证两位小数");
-            System.Windows.Forms.TreeNode treeNode70 = new System.Windows.Forms.TreeNode("3.5 常用数字验证技巧", new System.Windows.Forms.TreeNode[] {
+            System.Windows.Forms.TreeNode treeNode70 = new System.Windows.Forms.TreeNode("076 使用正则表达式验证一年的12个月份");
+            System.Windows.Forms.TreeNode treeNode71 = new System.Windows.Forms.TreeNode("077 使用正则表达式验证一个月的31天");
+            System.Windows.Forms.TreeNode treeNode72 = new System.Windows.Forms.TreeNode("078 使用正则表达式验证数字输入");
+            System.Windows.Forms.TreeNode treeNode73 = new System.Windows.Forms.TreeNode("3.5 常用数字验证技巧", new System.Windows.Forms.TreeNode[] {
             treeNode64,
             treeNode65,
             treeNode66,
             treeNode67,
             treeNode68,
-            treeNode69});
-            System.Windows.Forms.TreeNode treeNode71 = new System.Windows.Forms.TreeNode("第3章 字符串处理技术", new System.Windows.Forms.TreeNode[] {
+            treeNode69,
+            treeNode70,
+            treeNode71,
+            treeNode72});
+            System.Windows.Forms.TreeNode treeNode74 = new System.Windows.Forms.TreeNode("第3章 字符串处理技术", new System.Windows.Forms.TreeNode[] {
             treeNode29,
             treeNode38,
             treeNode45,
             treeNode63,
-            treeNode70});
-            System.Windows.Forms.TreeNode treeNode72 = new System.Windows.Forms.TreeNode("第1篇 C#编程基础篇", new System.Windows.Forms.TreeNode[] {
+            treeNode73});
+            System.Windows.Forms.TreeNode treeNode75 = new System.Windows.Forms.TreeNode("第1篇 C#编程基础篇", new System.Windows.Forms.TreeNode[] {
             treeNode1,
             treeNode24,
-            treeNode71});
-            System.Windows.Forms.TreeNode treeNode73 = new System.Windows.Forms.TreeNode("第1卷", new System.Windows.Forms.TreeNode[] {
-            treeNode72});
+            treeNode74});
+            System.Windows.Forms.TreeNode treeNode76 = new System.Windows.Forms.TreeNode("第1卷", new System.Windows.Forms.TreeNode[] {
+            treeNode75});
             this.splitContainer1 = new System.Windows.Forms.SplitContainer();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
             this.tvMenu = new System.Windows.Forms.TreeView();
@@ -425,16 +431,25 @@
             treeNode69.Tag = "1-75";
             treeNode69.Text = "075 适用正则表达式验证两位小数";
             treeNode70.Name = "节点0";
-            treeNode70.Text = "3.5 常用数字验证技巧";
+            treeNode70.Tag = "1-76";
+            treeNode70.Text = "076 使用正则表达式验证一年的12个月份";
             treeNode71.Name = "节点1";
-            treeNode71.Text = "第3章 字符串处理技术";
-            treeNode72.Name = "节点7";
-            treeNode72.Text = "第1篇 C#编程基础篇";
-            treeNode73.Name = "节点6";
-            treeNode73.Tag = "";
-            treeNode73.Text = "第1卷";
+            treeNode71.Tag = "1-77";
+            treeNode71.Text = "077 使用正则表达式验证一个月的31天";
+            treeNode72.Name = "节点2";
+            treeNode72.Tag = "1-78";
+            treeNode72.Text = "078 使用正则表达式验证数字输入";
+            treeNode73.Name = "节点0";
+            treeNode73.Text = "3.5 常用数字验证技巧";
+            treeNode74.Name = "节点1";
+            treeNode74.Text = "第3章 字符串处理技术";
+            treeNode75.Name = "节点7";
+            treeNode75.Text = "第1篇 C#编程基础篇";
+            treeNode76.Name = "节点6";
+            treeNode76.Tag = "";
+            treeNode76.Text = "第1卷";
             this.tvMenu.Nodes.AddRange(new System.Windows.Forms.TreeNode[] {
-            treeNode73});
+            treeNode76});
             this.tvMenu.Size = new System.Drawing.Size(566, 918);
             this.tvMenu.TabIndex = 0;
             this.tvMenu.MouseClick += new System.Windows.Forms.MouseEventHandler(this.tvMenu_MouseClick);
