@@ -157,7 +157,10 @@
             System.Windows.Forms.TreeNode treeNode70 = new System.Windows.Forms.TreeNode("076 使用正则表达式验证一年的12个月份");
             System.Windows.Forms.TreeNode treeNode71 = new System.Windows.Forms.TreeNode("077 使用正则表达式验证一个月的31天");
             System.Windows.Forms.TreeNode treeNode72 = new System.Windows.Forms.TreeNode("078 使用正则表达式验证数字输入");
-            System.Windows.Forms.TreeNode treeNode73 = new System.Windows.Forms.TreeNode("3.5 常用数字验证技巧", new System.Windows.Forms.TreeNode[] {
+            System.Windows.Forms.TreeNode treeNode73 = new System.Windows.Forms.TreeNode("079 使用正则表达式验证密码长度");
+            System.Windows.Forms.TreeNode treeNode74 = new System.Windows.Forms.TreeNode("080 使用正则表达式验证非零的正整数");
+            System.Windows.Forms.TreeNode treeNode75 = new System.Windows.Forms.TreeNode("081 使用正则表达式验证非零的负整数");
+            System.Windows.Forms.TreeNode treeNode76 = new System.Windows.Forms.TreeNode("3.5 常用数字验证技巧", new System.Windows.Forms.TreeNode[] {
             treeNode64,
             treeNode65,
             treeNode66,
@@ -166,19 +169,22 @@
             treeNode69,
             treeNode70,
             treeNode71,
-            treeNode72});
-            System.Windows.Forms.TreeNode treeNode74 = new System.Windows.Forms.TreeNode("第3章 字符串处理技术", new System.Windows.Forms.TreeNode[] {
+            treeNode72,
+            treeNode73,
+            treeNode74,
+            treeNode75});
+            System.Windows.Forms.TreeNode treeNode77 = new System.Windows.Forms.TreeNode("第3章 字符串处理技术", new System.Windows.Forms.TreeNode[] {
             treeNode29,
             treeNode38,
             treeNode45,
             treeNode63,
-            treeNode73});
-            System.Windows.Forms.TreeNode treeNode75 = new System.Windows.Forms.TreeNode("第1篇 C#编程基础篇", new System.Windows.Forms.TreeNode[] {
+            treeNode76});
+            System.Windows.Forms.TreeNode treeNode78 = new System.Windows.Forms.TreeNode("第1篇 C#编程基础篇", new System.Windows.Forms.TreeNode[] {
             treeNode1,
             treeNode24,
-            treeNode74});
-            System.Windows.Forms.TreeNode treeNode76 = new System.Windows.Forms.TreeNode("第1卷", new System.Windows.Forms.TreeNode[] {
-            treeNode75});
+            treeNode77});
+            System.Windows.Forms.TreeNode treeNode79 = new System.Windows.Forms.TreeNode("第1卷", new System.Windows.Forms.TreeNode[] {
+            treeNode78});
             this.splitContainer1 = new System.Windows.Forms.SplitContainer();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
             this.tvMenu = new System.Windows.Forms.TreeView();
@@ -440,16 +446,25 @@
             treeNode72.Tag = "1-78";
             treeNode72.Text = "078 使用正则表达式验证数字输入";
             treeNode73.Name = "节点0";
-            treeNode73.Text = "3.5 常用数字验证技巧";
+            treeNode73.Tag = "1-79";
+            treeNode73.Text = "079 使用正则表达式验证密码长度";
             treeNode74.Name = "节点1";
-            treeNode74.Text = "第3章 字符串处理技术";
-            treeNode75.Name = "节点7";
-            treeNode75.Text = "第1篇 C#编程基础篇";
-            treeNode76.Name = "节点6";
-            treeNode76.Tag = "";
-            treeNode76.Text = "第1卷";
+            treeNode74.Tag = "1-80";
+            treeNode74.Text = "080 使用正则表达式验证非零的正整数";
+            treeNode75.Name = "节点2";
+            treeNode75.Tag = "1-81";
+            treeNode75.Text = "081 使用正则表达式验证非零的负整数";
+            treeNode76.Name = "节点0";
+            treeNode76.Text = "3.5 常用数字验证技巧";
+            treeNode77.Name = "节点1";
+            treeNode77.Text = "第3章 字符串处理技术";
+            treeNode78.Name = "节点7";
+            treeNode78.Text = "第1篇 C#编程基础篇";
+            treeNode79.Name = "节点6";
+            treeNode79.Tag = "";
+            treeNode79.Text = "第1卷";
             this.tvMenu.Nodes.AddRange(new System.Windows.Forms.TreeNode[] {
-            treeNode76});
+            treeNode79});
             this.tvMenu.Size = new System.Drawing.Size(566, 918);
             this.tvMenu.TabIndex = 0;
             this.tvMenu.MouseClick += new System.Windows.Forms.MouseEventHandler(this.tvMenu_MouseClick);
