@@ -173,18 +173,26 @@
             treeNode73,
             treeNode74,
             treeNode75});
-            System.Windows.Forms.TreeNode treeNode77 = new System.Windows.Forms.TreeNode("第3章 字符串处理技术", new System.Windows.Forms.TreeNode[] {
+            System.Windows.Forms.TreeNode treeNode77 = new System.Windows.Forms.TreeNode("082 使用正则表达式验证大写字母");
+            System.Windows.Forms.TreeNode treeNode78 = new System.Windows.Forms.TreeNode("083 使用正则表达式验证小写字母");
+            System.Windows.Forms.TreeNode treeNode79 = new System.Windows.Forms.TreeNode("084 使用正则表达式检查字符串中重复出现的词");
+            System.Windows.Forms.TreeNode treeNode80 = new System.Windows.Forms.TreeNode("3.6 常用字符验证技巧", new System.Windows.Forms.TreeNode[] {
+            treeNode77,
+            treeNode78,
+            treeNode79});
+            System.Windows.Forms.TreeNode treeNode81 = new System.Windows.Forms.TreeNode("第3章 字符串处理技术", new System.Windows.Forms.TreeNode[] {
             treeNode29,
             treeNode38,
             treeNode45,
             treeNode63,
-            treeNode76});
-            System.Windows.Forms.TreeNode treeNode78 = new System.Windows.Forms.TreeNode("第1篇 C#编程基础篇", new System.Windows.Forms.TreeNode[] {
+            treeNode76,
+            treeNode80});
+            System.Windows.Forms.TreeNode treeNode82 = new System.Windows.Forms.TreeNode("第1篇 C#编程基础篇", new System.Windows.Forms.TreeNode[] {
             treeNode1,
             treeNode24,
-            treeNode77});
-            System.Windows.Forms.TreeNode treeNode79 = new System.Windows.Forms.TreeNode("第1卷", new System.Windows.Forms.TreeNode[] {
-            treeNode78});
+            treeNode81});
+            System.Windows.Forms.TreeNode treeNode83 = new System.Windows.Forms.TreeNode("第1卷", new System.Windows.Forms.TreeNode[] {
+            treeNode82});
             this.splitContainer1 = new System.Windows.Forms.SplitContainer();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
             this.tvMenu = new System.Windows.Forms.TreeView();
@@ -457,14 +465,26 @@
             treeNode76.Name = "节点0";
             treeNode76.Text = "3.5 常用数字验证技巧";
             treeNode77.Name = "节点1";
-            treeNode77.Text = "第3章 字符串处理技术";
-            treeNode78.Name = "节点7";
-            treeNode78.Text = "第1篇 C#编程基础篇";
-            treeNode79.Name = "节点6";
-            treeNode79.Tag = "";
-            treeNode79.Text = "第1卷";
+            treeNode77.Tag = "1-82";
+            treeNode77.Text = "082 使用正则表达式验证大写字母";
+            treeNode78.Name = "节点2";
+            treeNode78.Tag = "1-83";
+            treeNode78.Text = "083 使用正则表达式验证小写字母";
+            treeNode79.Name = "节点3";
+            treeNode79.Tag = "1-84";
+            treeNode79.Text = "084 使用正则表达式检查字符串中重复出现的词";
+            treeNode80.Name = "节点0";
+            treeNode80.Tag = "";
+            treeNode80.Text = "3.6 常用字符验证技巧";
+            treeNode81.Name = "节点1";
+            treeNode81.Text = "第3章 字符串处理技术";
+            treeNode82.Name = "节点7";
+            treeNode82.Text = "第1篇 C#编程基础篇";
+            treeNode83.Name = "节点6";
+            treeNode83.Tag = "";
+            treeNode83.Text = "第1卷";
             this.tvMenu.Nodes.AddRange(new System.Windows.Forms.TreeNode[] {
-            treeNode79});
+            treeNode83});
             this.tvMenu.Size = new System.Drawing.Size(566, 918);
             this.tvMenu.TabIndex = 0;
             this.tvMenu.MouseClick += new System.Windows.Forms.MouseEventHandler(this.tvMenu_MouseClick);
