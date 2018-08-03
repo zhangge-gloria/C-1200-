@@ -176,23 +176,29 @@
             System.Windows.Forms.TreeNode treeNode77 = new System.Windows.Forms.TreeNode("082 使用正则表达式验证大写字母");
             System.Windows.Forms.TreeNode treeNode78 = new System.Windows.Forms.TreeNode("083 使用正则表达式验证小写字母");
             System.Windows.Forms.TreeNode treeNode79 = new System.Windows.Forms.TreeNode("084 使用正则表达式检查字符串中重复出现的词");
-            System.Windows.Forms.TreeNode treeNode80 = new System.Windows.Forms.TreeNode("3.6 常用字符验证技巧", new System.Windows.Forms.TreeNode[] {
+            System.Windows.Forms.TreeNode treeNode80 = new System.Windows.Forms.TreeNode("085 使用正则表达示替换字符串");
+            System.Windows.Forms.TreeNode treeNode81 = new System.Windows.Forms.TreeNode("086 使用正则表达式拆分字符串");
+            System.Windows.Forms.TreeNode treeNode82 = new System.Windows.Forms.TreeNode("087 使用正则表达式验证输入字母");
+            System.Windows.Forms.TreeNode treeNode83 = new System.Windows.Forms.TreeNode("3.6 常用字符验证技巧", new System.Windows.Forms.TreeNode[] {
             treeNode77,
             treeNode78,
-            treeNode79});
-            System.Windows.Forms.TreeNode treeNode81 = new System.Windows.Forms.TreeNode("第3章 字符串处理技术", new System.Windows.Forms.TreeNode[] {
+            treeNode79,
+            treeNode80,
+            treeNode81,
+            treeNode82});
+            System.Windows.Forms.TreeNode treeNode84 = new System.Windows.Forms.TreeNode("第3章 字符串处理技术", new System.Windows.Forms.TreeNode[] {
             treeNode29,
             treeNode38,
             treeNode45,
             treeNode63,
             treeNode76,
-            treeNode80});
-            System.Windows.Forms.TreeNode treeNode82 = new System.Windows.Forms.TreeNode("第1篇 C#编程基础篇", new System.Windows.Forms.TreeNode[] {
+            treeNode83});
+            System.Windows.Forms.TreeNode treeNode85 = new System.Windows.Forms.TreeNode("第1篇 C#编程基础篇", new System.Windows.Forms.TreeNode[] {
             treeNode1,
             treeNode24,
-            treeNode81});
-            System.Windows.Forms.TreeNode treeNode83 = new System.Windows.Forms.TreeNode("第1卷", new System.Windows.Forms.TreeNode[] {
-            treeNode82});
+            treeNode84});
+            System.Windows.Forms.TreeNode treeNode86 = new System.Windows.Forms.TreeNode("第1卷", new System.Windows.Forms.TreeNode[] {
+            treeNode85});
             this.splitContainer1 = new System.Windows.Forms.SplitContainer();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
             this.tvMenu = new System.Windows.Forms.TreeView();
@@ -241,7 +247,7 @@
             // 
             this.tvMenu.Dock = System.Windows.Forms.DockStyle.Fill;
             this.tvMenu.Font = new System.Drawing.Font("微软雅黑", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.tvMenu.Location = new System.Drawing.Point(5, 32);
+            this.tvMenu.Location = new System.Drawing.Point(5, 48);
             this.tvMenu.Margin = new System.Windows.Forms.Padding(5);
             this.tvMenu.Name = "tvMenu";
             treeNode1.Name = "节点8";
@@ -474,18 +480,27 @@
             treeNode79.Tag = "1-84";
             treeNode79.Text = "084 使用正则表达式检查字符串中重复出现的词";
             treeNode80.Name = "节点0";
-            treeNode80.Tag = "";
-            treeNode80.Text = "3.6 常用字符验证技巧";
+            treeNode80.Tag = "1-85";
+            treeNode80.Text = "085 使用正则表达示替换字符串";
             treeNode81.Name = "节点1";
-            treeNode81.Text = "第3章 字符串处理技术";
-            treeNode82.Name = "节点7";
-            treeNode82.Text = "第1篇 C#编程基础篇";
-            treeNode83.Name = "节点6";
+            treeNode81.Tag = "1-86";
+            treeNode81.Text = "086 使用正则表达式拆分字符串";
+            treeNode82.Name = "节点2";
+            treeNode82.Tag = "1-87";
+            treeNode82.Text = "087 使用正则表达式验证输入字母";
+            treeNode83.Name = "节点0";
             treeNode83.Tag = "";
-            treeNode83.Text = "第1卷";
+            treeNode83.Text = "3.6 常用字符验证技巧";
+            treeNode84.Name = "节点1";
+            treeNode84.Text = "第3章 字符串处理技术";
+            treeNode85.Name = "节点7";
+            treeNode85.Text = "第1篇 C#编程基础篇";
+            treeNode86.Name = "节点6";
+            treeNode86.Tag = "";
+            treeNode86.Text = "第1卷";
             this.tvMenu.Nodes.AddRange(new System.Windows.Forms.TreeNode[] {
-            treeNode83});
-            this.tvMenu.Size = new System.Drawing.Size(566, 918);
+            treeNode86});
+            this.tvMenu.Size = new System.Drawing.Size(566, 902);
             this.tvMenu.TabIndex = 0;
             this.tvMenu.MouseClick += new System.Windows.Forms.MouseEventHandler(this.tvMenu_MouseClick);
             // 
@@ -500,7 +515,7 @@
             // 
             // FormMain
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(12F, 27F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(19F, 41F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1902, 955);
             this.Controls.Add(this.splitContainer1);
