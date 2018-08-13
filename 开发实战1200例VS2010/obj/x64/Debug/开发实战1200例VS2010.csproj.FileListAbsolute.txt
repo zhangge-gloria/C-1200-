@@ -151,3 +151,7 @@ D:\专业提升\开发实战1200例VS2010\开发实战1200例VS2010\obj\x64\Debu
 D:\专业提升\开发实战1200例VS2010\开发实战1200例VS2010\obj\x64\Debug\开发实战1200例VS2010.FormMain.resources
 D:\专业提升\开发实战1200例VS2010\开发实战1200例VS2010\obj\x64\Debug\开发实战1200例VS2010.Properties.Resources.resources
 D:\专业提升\开发实战1200例VS2010\开发实战1200例VS2010\obj\x64\Debug\开发实战1200例VS2010.csproj.GenerateResource.Cache
+D:\专业提升\开发实战1200例VS2010\开发实战1200例VS2010\obj\x64\Debug\开发实战1200例VS2010.csprojResolveAssemblyReference.cache
+D:\专业提升\开发实战1200例VS2010\开发实战1200例VS2010\obj\x64\Debug\开发实战1200例VS2010._1_088.UCMain.resources
+D:\专业提升\开发实战1200例VS2010\开发实战1200例VS2010\obj\x64\Debug\开发实战1200例VS2010._1_089.UCMain.resources
+D:\专业提升\开发实战1200例VS2010\开发实战1200例VS2010\obj\x64\Debug\开发实战1200例VS2010._1_090.UCMain.resources
