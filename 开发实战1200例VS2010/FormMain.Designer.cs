@@ -191,22 +191,32 @@
             treeNode83,
             treeNode84});
             System.Windows.Forms.TreeNode treeNode86 = new System.Windows.Forms.TreeNode("090 使用正则表达式验证E-mail格式");
-            System.Windows.Forms.TreeNode treeNode87 = new System.Windows.Forms.TreeNode("3.7 网络验证应用技巧", new System.Windows.Forms.TreeNode[] {
-            treeNode86});
-            System.Windows.Forms.TreeNode treeNode88 = new System.Windows.Forms.TreeNode("第3章 字符串处理技术", new System.Windows.Forms.TreeNode[] {
+            System.Windows.Forms.TreeNode treeNode87 = new System.Windows.Forms.TreeNode("091 使用正则表达式验证IP地址");
+            System.Windows.Forms.TreeNode treeNode88 = new System.Windows.Forms.TreeNode("092 使用正则表达式验证URL");
+            System.Windows.Forms.TreeNode treeNode89 = new System.Windows.Forms.TreeNode("3.7 网络验证应用技巧", new System.Windows.Forms.TreeNode[] {
+            treeNode86,
+            treeNode87,
+            treeNode88});
+            System.Windows.Forms.TreeNode treeNode90 = new System.Windows.Forms.TreeNode("第3章 字符串处理技术", new System.Windows.Forms.TreeNode[] {
             treeNode29,
             treeNode38,
             treeNode45,
             treeNode63,
             treeNode76,
             treeNode85,
-            treeNode87});
-            System.Windows.Forms.TreeNode treeNode89 = new System.Windows.Forms.TreeNode("第1篇 C#编程基础篇", new System.Windows.Forms.TreeNode[] {
+            treeNode89});
+            System.Windows.Forms.TreeNode treeNode91 = new System.Windows.Forms.TreeNode("093 获取多维数组的行数与列数");
+            System.Windows.Forms.TreeNode treeNode92 = new System.Windows.Forms.TreeNode("4.1 数组的基本操作", new System.Windows.Forms.TreeNode[] {
+            treeNode91});
+            System.Windows.Forms.TreeNode treeNode93 = new System.Windows.Forms.TreeNode("第4章 数组和集合的使用", new System.Windows.Forms.TreeNode[] {
+            treeNode92});
+            System.Windows.Forms.TreeNode treeNode94 = new System.Windows.Forms.TreeNode("第1篇 C#编程基础篇", new System.Windows.Forms.TreeNode[] {
             treeNode1,
             treeNode24,
-            treeNode88});
-            System.Windows.Forms.TreeNode treeNode90 = new System.Windows.Forms.TreeNode("第1卷", new System.Windows.Forms.TreeNode[] {
-            treeNode89});
+            treeNode90,
+            treeNode93});
+            System.Windows.Forms.TreeNode treeNode95 = new System.Windows.Forms.TreeNode("第1卷", new System.Windows.Forms.TreeNode[] {
+            treeNode94});
             this.splitContainer1 = new System.Windows.Forms.SplitContainer();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
             this.tvMenu = new System.Windows.Forms.TreeView();
@@ -508,17 +518,30 @@
             treeNode86.Name = "节点3";
             treeNode86.Tag = "1-90";
             treeNode86.Text = "090 使用正则表达式验证E-mail格式";
-            treeNode87.Name = "节点2";
-            treeNode87.Text = "3.7 网络验证应用技巧";
+            treeNode87.Name = "节点0";
+            treeNode87.Tag = "1-91";
+            treeNode87.Text = "091 使用正则表达式验证IP地址";
             treeNode88.Name = "节点1";
-            treeNode88.Text = "第3章 字符串处理技术";
-            treeNode89.Name = "节点7";
-            treeNode89.Text = "第1篇 C#编程基础篇";
-            treeNode90.Name = "节点6";
-            treeNode90.Tag = "";
-            treeNode90.Text = "第1卷";
+            treeNode88.Tag = "1-92";
+            treeNode88.Text = "092 使用正则表达式验证URL";
+            treeNode89.Name = "节点2";
+            treeNode89.Text = "3.7 网络验证应用技巧";
+            treeNode90.Name = "节点1";
+            treeNode90.Text = "第3章 字符串处理技术";
+            treeNode91.Name = "节点4";
+            treeNode91.Tag = "1-93";
+            treeNode91.Text = "093 获取多维数组的行数与列数";
+            treeNode92.Name = "节点3";
+            treeNode92.Text = "4.1 数组的基本操作";
+            treeNode93.Name = "节点2";
+            treeNode93.Text = "第4章 数组和集合的使用";
+            treeNode94.Name = "节点7";
+            treeNode94.Text = "第1篇 C#编程基础篇";
+            treeNode95.Name = "节点6";
+            treeNode95.Tag = "";
+            treeNode95.Text = "第1卷";
             this.tvMenu.Nodes.AddRange(new System.Windows.Forms.TreeNode[] {
-            treeNode90});
+            treeNode95});
             this.tvMenu.Size = new System.Drawing.Size(566, 923);
             this.tvMenu.TabIndex = 0;
             this.tvMenu.MouseClick += new System.Windows.Forms.MouseEventHandler(this.tvMenu_MouseClick);
