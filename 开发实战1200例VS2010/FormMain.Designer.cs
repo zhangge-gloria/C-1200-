@@ -206,17 +206,19 @@
             treeNode85,
             treeNode89});
             System.Windows.Forms.TreeNode treeNode91 = new System.Windows.Forms.TreeNode("093 获取多维数组的行数与列数");
-            System.Windows.Forms.TreeNode treeNode92 = new System.Windows.Forms.TreeNode("4.1 数组的基本操作", new System.Windows.Forms.TreeNode[] {
-            treeNode91});
-            System.Windows.Forms.TreeNode treeNode93 = new System.Windows.Forms.TreeNode("第4章 数组和集合的使用", new System.Windows.Forms.TreeNode[] {
+            System.Windows.Forms.TreeNode treeNode92 = new System.Windows.Forms.TreeNode("094 按指定条件在数组中检索元素");
+            System.Windows.Forms.TreeNode treeNode93 = new System.Windows.Forms.TreeNode("4.1 数组的基本操作", new System.Windows.Forms.TreeNode[] {
+            treeNode91,
             treeNode92});
-            System.Windows.Forms.TreeNode treeNode94 = new System.Windows.Forms.TreeNode("第1篇 C#编程基础篇", new System.Windows.Forms.TreeNode[] {
+            System.Windows.Forms.TreeNode treeNode94 = new System.Windows.Forms.TreeNode("第4章 数组和集合的使用", new System.Windows.Forms.TreeNode[] {
+            treeNode93});
+            System.Windows.Forms.TreeNode treeNode95 = new System.Windows.Forms.TreeNode("第1篇 C#编程基础篇", new System.Windows.Forms.TreeNode[] {
             treeNode1,
             treeNode24,
             treeNode90,
-            treeNode93});
-            System.Windows.Forms.TreeNode treeNode95 = new System.Windows.Forms.TreeNode("第1卷", new System.Windows.Forms.TreeNode[] {
             treeNode94});
+            System.Windows.Forms.TreeNode treeNode96 = new System.Windows.Forms.TreeNode("第1卷", new System.Windows.Forms.TreeNode[] {
+            treeNode95});
             this.splitContainer1 = new System.Windows.Forms.SplitContainer();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
             this.tvMenu = new System.Windows.Forms.TreeView();
@@ -265,7 +267,7 @@
             // 
             this.tvMenu.Dock = System.Windows.Forms.DockStyle.Fill;
             this.tvMenu.Font = new System.Drawing.Font("微软雅黑", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.tvMenu.Location = new System.Drawing.Point(5, 27);
+            this.tvMenu.Location = new System.Drawing.Point(5, 48);
             this.tvMenu.Margin = new System.Windows.Forms.Padding(5);
             this.tvMenu.Name = "tvMenu";
             treeNode1.Name = "节点8";
@@ -531,18 +533,21 @@
             treeNode91.Name = "节点4";
             treeNode91.Tag = "1-93";
             treeNode91.Text = "093 获取多维数组的行数与列数";
-            treeNode92.Name = "节点3";
-            treeNode92.Text = "4.1 数组的基本操作";
-            treeNode93.Name = "节点2";
-            treeNode93.Text = "第4章 数组和集合的使用";
-            treeNode94.Name = "节点7";
-            treeNode94.Text = "第1篇 C#编程基础篇";
-            treeNode95.Name = "节点6";
-            treeNode95.Tag = "";
-            treeNode95.Text = "第1卷";
+            treeNode92.Name = "节点0";
+            treeNode92.Tag = "1-94";
+            treeNode92.Text = "094 按指定条件在数组中检索元素";
+            treeNode93.Name = "节点3";
+            treeNode93.Text = "4.1 数组的基本操作";
+            treeNode94.Name = "节点2";
+            treeNode94.Text = "第4章 数组和集合的使用";
+            treeNode95.Name = "节点7";
+            treeNode95.Text = "第1篇 C#编程基础篇";
+            treeNode96.Name = "节点6";
+            treeNode96.Tag = "";
+            treeNode96.Text = "第1卷";
             this.tvMenu.Nodes.AddRange(new System.Windows.Forms.TreeNode[] {
-            treeNode95});
-            this.tvMenu.Size = new System.Drawing.Size(566, 923);
+            treeNode96});
+            this.tvMenu.Size = new System.Drawing.Size(566, 902);
             this.tvMenu.TabIndex = 0;
             this.tvMenu.MouseClick += new System.Windows.Forms.MouseEventHandler(this.tvMenu_MouseClick);
             // 
@@ -557,7 +562,7 @@
             // 
             // FormMain
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(10F, 21F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(19F, 41F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1902, 955);
             this.Controls.Add(this.splitContainer1);
