@@ -207,18 +207,22 @@
             treeNode89});
             System.Windows.Forms.TreeNode treeNode91 = new System.Windows.Forms.TreeNode("093 获取多维数组的行数与列数");
             System.Windows.Forms.TreeNode treeNode92 = new System.Windows.Forms.TreeNode("094 按指定条件在数组中检索元素");
-            System.Windows.Forms.TreeNode treeNode93 = new System.Windows.Forms.TreeNode("4.1 数组的基本操作", new System.Windows.Forms.TreeNode[] {
+            System.Windows.Forms.TreeNode treeNode93 = new System.Windows.Forms.TreeNode("095 在数组中添加一个元素");
+            System.Windows.Forms.TreeNode treeNode94 = new System.Windows.Forms.TreeNode("096 在数组中添加一个数组");
+            System.Windows.Forms.TreeNode treeNode95 = new System.Windows.Forms.TreeNode("4.1 数组的基本操作", new System.Windows.Forms.TreeNode[] {
             treeNode91,
-            treeNode92});
-            System.Windows.Forms.TreeNode treeNode94 = new System.Windows.Forms.TreeNode("第4章 数组和集合的使用", new System.Windows.Forms.TreeNode[] {
-            treeNode93});
-            System.Windows.Forms.TreeNode treeNode95 = new System.Windows.Forms.TreeNode("第1篇 C#编程基础篇", new System.Windows.Forms.TreeNode[] {
+            treeNode92,
+            treeNode93,
+            treeNode94});
+            System.Windows.Forms.TreeNode treeNode96 = new System.Windows.Forms.TreeNode("第4章 数组和集合的使用", new System.Windows.Forms.TreeNode[] {
+            treeNode95});
+            System.Windows.Forms.TreeNode treeNode97 = new System.Windows.Forms.TreeNode("第1篇 C#编程基础篇", new System.Windows.Forms.TreeNode[] {
             treeNode1,
             treeNode24,
             treeNode90,
-            treeNode94});
-            System.Windows.Forms.TreeNode treeNode96 = new System.Windows.Forms.TreeNode("第1卷", new System.Windows.Forms.TreeNode[] {
-            treeNode95});
+            treeNode96});
+            System.Windows.Forms.TreeNode treeNode98 = new System.Windows.Forms.TreeNode("第1卷", new System.Windows.Forms.TreeNode[] {
+            treeNode97});
             this.splitContainer1 = new System.Windows.Forms.SplitContainer();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
             this.tvMenu = new System.Windows.Forms.TreeView();
@@ -536,17 +540,23 @@
             treeNode92.Name = "节点0";
             treeNode92.Tag = "1-94";
             treeNode92.Text = "094 按指定条件在数组中检索元素";
-            treeNode93.Name = "节点3";
-            treeNode93.Text = "4.1 数组的基本操作";
-            treeNode94.Name = "节点2";
-            treeNode94.Text = "第4章 数组和集合的使用";
-            treeNode95.Name = "节点7";
-            treeNode95.Text = "第1篇 C#编程基础篇";
-            treeNode96.Name = "节点6";
-            treeNode96.Tag = "";
-            treeNode96.Text = "第1卷";
+            treeNode93.Name = "节点0";
+            treeNode93.Tag = "1-95";
+            treeNode93.Text = "095 在数组中添加一个元素";
+            treeNode94.Name = "节点0";
+            treeNode94.Tag = "1-96";
+            treeNode94.Text = "096 在数组中添加一个数组";
+            treeNode95.Name = "节点3";
+            treeNode95.Text = "4.1 数组的基本操作";
+            treeNode96.Name = "节点2";
+            treeNode96.Text = "第4章 数组和集合的使用";
+            treeNode97.Name = "节点7";
+            treeNode97.Text = "第1篇 C#编程基础篇";
+            treeNode98.Name = "节点6";
+            treeNode98.Tag = "";
+            treeNode98.Text = "第1卷";
             this.tvMenu.Nodes.AddRange(new System.Windows.Forms.TreeNode[] {
-            treeNode96});
+            treeNode98});
             this.tvMenu.Size = new System.Drawing.Size(566, 902);
             this.tvMenu.TabIndex = 0;
             this.tvMenu.MouseClick += new System.Windows.Forms.MouseEventHandler(this.tvMenu_MouseClick);

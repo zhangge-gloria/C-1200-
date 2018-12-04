@@ -244,3 +244,5 @@ D:\03-专业提升\01-C#\01-工程\开发实战1200例VS2010\开发实战1200例
 D:\03-专业提升\01-C#\01-工程\开发实战1200例VS2010\开发实战1200例VS2010\obj\x64\Debug\开发实战1200例VS2010.Properties.Resources.resources
 D:\03-专业提升\01-C#\01-工程\开发实战1200例VS2010\开发实战1200例VS2010\obj\x64\Debug\开发实战1200例VS2010.csproj.GenerateResource.Cache
 D:\03-专业提升\01-C#\01-工程\开发实战1200例VS2010\开发实战1200例VS2010\obj\x64\Debug\开发实战1200例VS2010._1_094.UCMain.resources
+D:\03-专业提升\01-C#\01-工程\开发实战1200例VS2010\开发实战1200例VS2010\obj\x64\Debug\开发实战1200例VS2010._1_095.UCMain.resources
+D:\03-专业提升\01-C#\01-工程\开发实战1200例VS2010\开发实战1200例VS2010\obj\x64\Debug\开发实战1200例VS2010._1_096.UCMain.resources
