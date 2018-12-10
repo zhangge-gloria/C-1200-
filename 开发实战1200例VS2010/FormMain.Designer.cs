@@ -209,20 +209,28 @@
             System.Windows.Forms.TreeNode treeNode92 = new System.Windows.Forms.TreeNode("094 按指定条件在数组中检索元素");
             System.Windows.Forms.TreeNode treeNode93 = new System.Windows.Forms.TreeNode("095 在数组中添加一个元素");
             System.Windows.Forms.TreeNode treeNode94 = new System.Windows.Forms.TreeNode("096 在数组中添加一个数组");
-            System.Windows.Forms.TreeNode treeNode95 = new System.Windows.Forms.TreeNode("4.1 数组的基本操作", new System.Windows.Forms.TreeNode[] {
+            System.Windows.Forms.TreeNode treeNode95 = new System.Windows.Forms.TreeNode("097 不改变长度删除数组中的元素");
+            System.Windows.Forms.TreeNode treeNode96 = new System.Windows.Forms.TreeNode("098 删除数组元素后改变其长度");
+            System.Windows.Forms.TreeNode treeNode97 = new System.Windows.Forms.TreeNode("4.1 数组的基本操作", new System.Windows.Forms.TreeNode[] {
             treeNode91,
             treeNode92,
             treeNode93,
-            treeNode94});
-            System.Windows.Forms.TreeNode treeNode96 = new System.Windows.Forms.TreeNode("第4章 数组和集合的使用", new System.Windows.Forms.TreeNode[] {
-            treeNode95});
-            System.Windows.Forms.TreeNode treeNode97 = new System.Windows.Forms.TreeNode("第1篇 C#编程基础篇", new System.Windows.Forms.TreeNode[] {
+            treeNode94,
+            treeNode95,
+            treeNode96});
+            System.Windows.Forms.TreeNode treeNode98 = new System.Windows.Forms.TreeNode("099 使用选择排序法对一维数组进行排序");
+            System.Windows.Forms.TreeNode treeNode99 = new System.Windows.Forms.TreeNode("4.2 常用数组排序算法", new System.Windows.Forms.TreeNode[] {
+            treeNode98});
+            System.Windows.Forms.TreeNode treeNode100 = new System.Windows.Forms.TreeNode("第4章 数组和集合的使用", new System.Windows.Forms.TreeNode[] {
+            treeNode97,
+            treeNode99});
+            System.Windows.Forms.TreeNode treeNode101 = new System.Windows.Forms.TreeNode("第1篇 C#编程基础篇", new System.Windows.Forms.TreeNode[] {
             treeNode1,
             treeNode24,
             treeNode90,
-            treeNode96});
-            System.Windows.Forms.TreeNode treeNode98 = new System.Windows.Forms.TreeNode("第1卷", new System.Windows.Forms.TreeNode[] {
-            treeNode97});
+            treeNode100});
+            System.Windows.Forms.TreeNode treeNode102 = new System.Windows.Forms.TreeNode("第1卷", new System.Windows.Forms.TreeNode[] {
+            treeNode101});
             this.splitContainer1 = new System.Windows.Forms.SplitContainer();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
             this.tvMenu = new System.Windows.Forms.TreeView();
@@ -546,17 +554,28 @@
             treeNode94.Name = "节点0";
             treeNode94.Tag = "1-96";
             treeNode94.Text = "096 在数组中添加一个数组";
-            treeNode95.Name = "节点3";
-            treeNode95.Text = "4.1 数组的基本操作";
-            treeNode96.Name = "节点2";
-            treeNode96.Text = "第4章 数组和集合的使用";
-            treeNode97.Name = "节点7";
-            treeNode97.Text = "第1篇 C#编程基础篇";
-            treeNode98.Name = "节点6";
-            treeNode98.Tag = "";
-            treeNode98.Text = "第1卷";
+            treeNode95.Name = "节点0";
+            treeNode95.Tag = "1-97";
+            treeNode95.Text = "097 不改变长度删除数组中的元素";
+            treeNode96.Name = "节点1";
+            treeNode96.Tag = "1-98";
+            treeNode96.Text = "098 删除数组元素后改变其长度";
+            treeNode97.Name = "节点3";
+            treeNode97.Text = "4.1 数组的基本操作";
+            treeNode98.Name = "节点3";
+            treeNode98.Tag = "1-99";
+            treeNode98.Text = "099 使用选择排序法对一维数组进行排序";
+            treeNode99.Name = "节点2";
+            treeNode99.Text = "4.2 常用数组排序算法";
+            treeNode100.Name = "节点2";
+            treeNode100.Text = "第4章 数组和集合的使用";
+            treeNode101.Name = "节点7";
+            treeNode101.Text = "第1篇 C#编程基础篇";
+            treeNode102.Name = "节点6";
+            treeNode102.Tag = "";
+            treeNode102.Text = "第1卷";
             this.tvMenu.Nodes.AddRange(new System.Windows.Forms.TreeNode[] {
-            treeNode98});
+            treeNode102});
             this.tvMenu.Size = new System.Drawing.Size(566, 902);
             this.tvMenu.TabIndex = 0;
             this.tvMenu.MouseClick += new System.Windows.Forms.MouseEventHandler(this.tvMenu_MouseClick);
